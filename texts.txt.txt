@@ -1,0 +1,2745 @@
+//a e i o u n
+// Archivo de definiciones de cadenas de Radius Manager
+//
+// Debe haber un caracter TAB entre el token y las cadenas
+//
+
+// inicio de sesion ACP
+
+{ACPLOGIN0}	Panel de control de administracion
+{ACPLOGIN1}	Nombre del administrador
+{ACPLOGIN2}	Contrasena
+{ACPLOGIN3}	Iniciar sesion
+{ACPLOGIN4}	Inicio de sesion seguro
+{ACPLOGIN5}	Radius Manager - Panel de control de administracion
+{ACPLOGIN6}	Idioma
+{ACPLOGIN7}	Este sitio web utiliza cookies que son obligatorias para el correcto funcionamiento del sistema. Las cookies se utilizan para almacenar el orden de las columnas en las vistas de lista. Las cookies <b>no recopilan ninguna informacion estadistica o analitica</b> y pueden ser examinadas, eliminadas o bloqueadas en el navegador web. Si no esta de acuerdo, no utilice este sitio web.
+
+// Cierre de sesion de ACP
+
+{ACPLOGOUT0}	Panel de control de administracion
+{ACPLOGOUT1}	Redirigiendo a la pagina de inicio de sesion...
+{ACPLOGOUT2}	inicio de sesion
+{ACPLOGOUT3}	Radius Manager - Panel de control de administracion
+
+// redireccion ACP
+
+{RDRCT0} Redirigiendo a la pagina solicitada...
+{RDRCT1} Haga clic aqui para forzar la redireccion
+{RDRCT2} Redireccionando...
+
+// ACP principal
+
+{ACPMAIN0}	Gerente
+{ACPMAIN1}	Fecha
+{ACPMAIN2}	Version 
+{ACPMAIN3}	Radius Manager - Panel de control de administracion
+{ACPMAIN4}	servidor RADIUS
+{ACPMAIN5}	servidor DHCP
+{ACPMAIN6}	Saldo
+
+// ACP inicio
+
+{HOME0}	Inicio
+{HOME1}	Todos los derechos reservados.
+{HOME2}	Se prohibe la duplicacion o el uso no autorizado<br>de este software.
+{HOME3}	ACUERDO DE LICENCIA DE USUARIO FINAL 
+{HOME4}	Version
+
+// ACP encuentra tarjetas de recarga
+
+{FNDRFL0}	Encuentra tarjetas de recarga
+{FNDRFL1}	PIN
+{FNDRFL2}	Serie 
+{FNDRFL3}	Activado por
+{FNDRFL4}	Activado el
+{FNDRFL5}	Estado
+{FNDRFL6}	Cualquiera
+{FNDRFL7}	Activo
+{FNDRFL8}	Caducado
+{FNDRFL9}	revocado
+{FNDRFL10}	Buscar
+{FNDRFL11}	Restablecer formulario
+
+// tarjeta recarga cheque ACP
+
+{CHKCARD0}	Tarjeta de recarga de cheques
+{CHKCARD1}	Numero de tarjeta
+{CHKCARD2}	¡Los campos son obligatorios!
+{CHKCARD3}	Tarjeta de cheques
+
+// ACP muestra los datos de la tarjeta de recarga
+
+{SHOWCARD0}	Recargar datos de tarjeta
+{SHOWCARD1}	Numero de tarjeta
+{SHOWCARD2}	Serie 
+{SHOWCARD3}	Generado el
+{SHOWCARD4}	Caducidad
+{SHOWCARD5}	Valor de la tarjeta
+{SHOWCARD6}	Activado por
+{SHOWCARD7}	Activado el
+
+// CLUF de ACP
+
+{EULA0}	Acuerdo de licencia de usuario final
+
+// Configuracion del sistema ACP
+
+{SYSET0}	Configuracion del sistema
+{SYSET1}	Moneda
+{SYSET2}	IVA/GST
+{SYSET3}	Sincronizar cuentas de Linux
+{SYSET4}	Gestion de cuotas de disco
+{SYSET5}	Usuario de plantilla de cuota de disco
+{SYSET6}	Habilitar cambio de servicio (UCP)
+{SYSET7}	Restablecer creditos al cambiar el servicio
+{SYSET8}	Tipo de impuesto para pago en efectivo
+{SYSET9}	Tipo de impuesto para transferencia bancaria
+{SYSET10}	Periodo de gracia
+{SYSET11}	Desactivar cuentas por impago de facturas
+{SYSET12}	¡Los campos son obligatorios!
+{SYSET13}	Guardar configuracion
+{SYSET14}	Incluido
+{SYSET15}	Excluido
+{SYSET16}	Dias
+{SYSET17}	Deshabilitar cuentas por vencimiento de contrato
+{SYSET18}	Metodo de desconexion
+{SYSET19}	NAS
+{SYSET20}	Remoto
+{SYSET21}	Alerta de descarga
+{SYSET22}	MB
+{SYSET23}	Subir alerta
+{SYSET24}	Alerta de trafico total
+{SYSET25}	Alerta de tiempo en linea
+{SYSET26}	Alerta de caducidad
+{SYSET27}	(HH:MM:SS)
+{SYSET28}	dia(s)
+{SYSET29}	Alerta de caducidad de cuenta
+{SYSET30}	Habilitar registro automatico
+{SYSET31}	Habilitar edicion de datos de usuario (UCP)
+{SYSET32}	Estandar de pagos del sitio web de PayPal
+{SYSET33}	Ocultar limites en la vista de lista de usuarios (rendimiento)
+{SYSET34}	Mensaje de bienvenida
+{SYSET35}	Pasarelas de pago habilitadas
+{SYSET36}	Interno
+{SYSET37}	Pagos en el sitio web de PayPal Pro
+{SYSET38}	Pago express de PayPal
+{SYSET39}	Netcash
+{SYSET40}	Sincronizar cuentas en
+{SYSET41}	servidor local
+{SYSET42}	Host remoto usando RSH
+{SYSET43}	Servidor Linux remoto
+{SYSET44}	Campos obligatorios de autorregistro
+{SYSET45}	Nombre
+{SYSET46}	Apellido
+{SYSET47}	Direccion
+{SYSET48}	Ciudad
+{SYSET49}	CoDIGO POSTAL
+{SYSET50}	Pais
+{SYSET51}	Estado o provincia
+{SYSET52}	Telofono
+{SYSET53}	Numero de celular
+{SYSET54}	Correo electronico
+{SYSET55}	El auto registro de nombre requiere
+{SYSET56}	Bloquear la primera direccion MAC vista
+{SYSET57}	El periodo de facturacion comienza el
+{SYSET58}	dia(s)
+{SYSET59}	Habilitar cambio de contrasena (UCP)
+{SYSET60}	Dia de renovacion pospago
+{SYSET61}	Autorizar.net
+{SYSET62}	Generalidades
+{SYSET63}	Notificaciones
+{SYSET64}	Facturacion
+{SYSET65}	Cuenta
+{SYSET66}	Buzon
+{SYSET67}	DPS Pago Expreso
+{SYSET68}	Habilitar canje de vales (UCP)
+{SYSET69}	Habilitar recarga de cuenta (UCP)
+{SYSET70}	2Pagar
+{SYSET71}	Nunca
+{SYSET72}	Solo cuando vence
+{SYSET73}	En cualquier momento
+{SYSET74}	Nivel de alerta
+{SYSET75}	Valor fijo
+{SYSET76}	Porcentaje
+{SYSET77}	Notificar al administrador sobre el autorregistro
+{SYSET78}	Nuevo plan de servicio activado
+{SYSET79}	Notificacion de renovacion de cuenta
+{SYSET80}	Correo electronico
+{SYSET81}	Campos obligatorios de IAS
+{SYSET82}	Correo electronico
+{SYSET83}	Numero de celular
+{SYSET84}	ID de IVA
+{SYSET85}	Avanzado. impuesto de venta
+{SYSET86}	Pago rapido
+{SYSET87}	La cuenta IAS requiere verificacion por SMS
+{SYSET88}	Autoregistro permite
+{SYSET89}	Direccion de correo electronico duplicada
+{SYSET90}	Numero de celular duplicado
+{SYSET91}	El registro IAS permite
+{SYSET92}	Agregar nuevo NAS a todos los servicios
+{SYSET93}	Agregar nuevo administrador a todos los servicios
+{SYSET94}	Auto-registro por defecto sim-uso
+{SYSET95}	SMS de activacion
+{SYSET96}	Activacion por correo electronico
+{SYSET97}	El registro automatico del numero de celular requiere
+{SYSET98}	Grupo de usuarios predeterminado de autorregistro
+{SYSET99}	Enviar alerta de caducidad
+{SYSET100}	Solo una vez
+{SYSET101}	Varias veces
+{SYSET102}	Captcha forzado
+{SYSET103}	PayU
+{SYSET104}	Desconectar usuarios pospago al inicio del periodo de facturacion
+{SYSET105}	Pago
+{SYSET106}	SMS
+{SYSET107}	bKash
+{SYSET108}	Desconectar usuarios vencidos en
+{SISTEMA109}	(HH:MM)
+{SYSET110}	Habilitar compra de deposito (UCP)
+{SYSET111}	Personalizado (definido por el usuario)
+{SYSET112}	Flutterwave
+{SYSET113}	Pago Facil
+{SYSET114}	MPESA
+{SYSET115}	Campos obligatorios
+{SYSET116}	Autorregistracion. y IAS
+
+// lista de usuarios ACP
+
+{LSTUSR0}	Lista de usuarios
+{LSTUSR1}	Nombre de usuario
+{LSTUSR2}	Plan de servicio
+{LSTUSR3}	IP de CPE
+{LSTUSR4}	Limite de descarga
+{LSTUSR5}	Limite de carga
+{LSTUSR6}	Caducidad
+{LSTUSR7}	Limite de tiempo en linea
+{LSTUSR8}	ultimo cierre de sesion
+{LSTUSR9}	Comentario
+{LSTUSR10}	Accion
+{LSTUSR11}	Activo
+{LSTUSR12}	Caduco
+{LSTUSR13}	Deshabilitado
+{LSTUSR14}	en linea
+{LSTUSR15}	Habilitar
+{LSTUSR16}	Deshabilitar
+{LSTUSR17}	Eliminar
+{LSTUSR18}	Limite total
+{LSTUSR19}	Exportar a CSV
+{LSTUSR20}	Registrado
+{LSTUSR21}	Sin verificar
+{LSTUSR22}	Nombre
+{LSTUSR23}	Apellido
+{LSTUSR24}	Empresa
+{LSTUSR25}	Direccion
+{LSTUSR26}	Ciudad
+{LSTUSR27}	CoDIGO POSTAL
+{LSTUSR28}	Pais
+{LSTUSR29}	Estado
+{LSTUSR30}	Telofono
+{LSTUSR31}	Movil
+{LSTUSR32}	Correo electronico
+{LSTUSR33}	MAC del CM
+{LSTUSR34}	IP del CM
+{LSTUSR35}	Desconectar
+{LSTUSR36}	Aplicar
+{LSTUSR37}	ultimo cierre de sesion
+
+// Lista de grupos de usuarios de ACP
+
+{LSTUSRGRP0}	Lista de grupos de usuarios
+{LSTUSRGRP1}	Nombre del grupo de usuarios
+{LSTUSRGRP2}	Accion
+{LSTUSRGRP3}	Eliminar
+{LSTUSRGRP4}	Descripcion
+
+// ACP editar grupo de usuarios
+
+{EDUSRGRP0}	Editar grupo de usuarios
+{EDUSRGRP1}	Nombre del grupo
+{EDUSRGRP2}	Descripcion
+{EDUSRGRP3}	¡Los campos son obligatorios!
+{EDUSRGRP4}	Actualizacion
+{EDUSRGRP5}	borrar
+
+// ACP nuevo grupo de usuarios
+
+{NEWUSRGRP0}	Nuevo grupo de usuarios
+{NEWUSRGRP1}	Nombre del grupo
+{NEWUSRGRP2}	Descripcion
+{NEWUSRGRP3}	¡Los campos son obligatorios!
+{NEWUSRGRP4}	Crear grupo
+
+// ACP confirma eliminar grupo de usuarios
+
+{CFMDELUSRGRP0}	Mensaje del sistema
+{CFMDELUSRGRP1}	Eliminar grupo de usuarios
+{CFMDELUSRGRP2}	Eliminar
+
+// ACP confirma la desconexion del usuario
+
+{CFMLOGOUT0}	Desconectar usuario
+{CFMLOGOUT1}	¿Esta seguro de desconectar todas las sesiones del usuario seleccionado?
+{CFMLOGOUT2}	Desconectar
+
+// Importacion masiva de usuarios de ACP
+
+{BULKIMPORT0}	Importacion masiva de usuarios
+{BULKIMPORT1}	archivo CSV para importar
+{BULKIMPORT2}	Inicio
+{BULKIMPORT3}	INSTRUCCIONES
+{BULKIMPORT4}	Estructura del archivo CSV
+{BULKIMPORT5}	<b>nombre de usuario; contrasena;</b> nombre; apellido; direccion; ciudad; Codigo Postal; pais; Expresar; empresa; telefono; movil; Email; srvid; Mac; estaticipio; ipmodecpe; expiracion; limite inferior; limite superior; limite total; tiempo en linea; comentario; propietario; Identificacion del grupo; activado
+{BULKIMPORT6}	Las <b>primeras dos columnas son obligatorias</b>, los campos restantes son opcionales. Las contrasenas deben estar en formato de texto claro (sin cifrar). Srvid es un valor numerico.
+{BULKIMPORT7}	Al hacer clic en el boton <b>Iniciar</b> comienza la importacion de la cuenta. Puede deshacer la ultima operacion en el menu Usuarios.
+
+// ACP deshace la ultima importacion masiva de usuarios
+
+{CFMUNDOCSV0}	Deshacer importacion CSV
+{CFMUNDOCSV1}	¿Esta seguro de que desea ELIMINAR los ultimos usuarios importados?	¡Esta operacion es IRREVERSIBLE!
+{CFMUNDOCSV2}	Deshacer importacion
+
+// ACP encuentra usuarios
+
+{FNDUSR0}	Buscar usuarios
+{FNDUSR1}	Parametros de filtro
+{FNDUSR2}	Nombre de usuario o MAC
+{FNDUSR3}	Estado de la cuenta
+{FNDUSR4}	Tipo de servicio
+{FNDUSR5}	CPE MAC
+{FNDUSR6}	IP de CPE
+{FNDUSR7}	Nombre de la empresa
+{FNDUSR8}	Numero de telefono
+{FNDUSR9}	Numero de celular
+{FNDUSR10}	Direccion
+{FNDUSR11}	Ciudad
+{FNDUSR12}	codigo postal
+{FNDUSR13}	Plan de servicio
+{FNDUSR14}	Comentario
+{FNDUSR15}	Editar usuario
+{FNDUSR16}	Nombre de usuario, MAC, PIN
+{FNDUSR17}	Cualquiera
+{FNDUSR18}	Habilitado
+{FNDUSR19}	Deshabilitado
+{FNDUSR20}	Prepago
+{FNDUSR21}	Pospago
+{FNDUSR22}	Correo electronico
+{FNDUSR23}	Buscar
+{FNDUSR24}	Editar
+{FNDUSR25}	MAC
+ del CM
+{FNDUSR26}	Lista de acceso RADIUS
+{FNDUSR27}	Nombre
+{FNDUSR28}	Apellido (familia)
+{FNDUSR29}	Correo electronico
+{FNDUSR30}	Pais
+{FNDUSR31}	Estado
+{FNDUSR32}	Grupo
+{FNDUSR33}	Propietario
+{FNDUSR34}	Id. de contrato
+{FNDUSR35}	Tipo de cuenta
+{FNDUSR36}	Cualquiera
+{FNDUSR37}	Regular
+{FNDUSR38}	MAC
+{FNDUSR39}	DOCSIS
+{FNDUSR40}	Lista de acceso de Mikrotik
+{FNDUSR41}	Lista de acceso de StarOS
+{FNDUSR42}	Activo
+{FNDUSR43}	Caducado
+{FNDUSR44}	Tarjeta prepago clasica
+{FNDUSR45}	Servicio de acceso instantaneo
+{FNDUSR46}	Informacion de uso
+{FNDUSR47}	Cualquiera
+{FNDUSR48}	Usado
+{FNDUSR49}	Sin usar
+{FNDUSR50}	Caducidad del contrato
+{FNDUSR51}	Periodo de registro
+{FNDUSR52}	Estado de la tarjeta
+{FNDUSR53}	Cualquiera
+{FNDUSR54}	Activado
+{FNDUSR55}	No activado
+{FNDUSR56}	IP del CM
+
+// ACP nuevo usuario
+
+{NEWUSR0}	Nuevo usuario
+{NEWUSR1}	Datos generales del usuario
+{NEWUSR2}	Nombre de usuario o direccion MAC
+{NEWUSR3}	Habilitar
+{NEWUSR4}	Tipo de cuenta
+{NEWUSR5}	Contrasena
+{NEWUSR6}	Confirmar contrasena
+{NEWUSR7}	Direccion MAC CPE
+{NEWUSR8}	IP estatica
+{NEWUSR9}	Uso simultaneo
+{NEWUSR10}	Nombre de la empresa
+{NEWUSR11}	Direccion
+{NEWUSR12}	Ciudad
+{NEWUSR13}	CoDIGO POSTAL
+{NEWUSR14}	Numero de telefono
+{NEWUSR15}	Numero de celular
+{NEWUSR16}	ID de IVA
+{NEWUSR17}	Plan de servicio
+{NEWUSR18}	Limite de descarga
+{NEWUSR19}	Limite de carga
+{NEWUSR20}	Caducidad de la cuenta
+{NEWUSR21}	Tiempo disponible en linea
+{NUEVOUSR22}	Comentario
+{NEWUSR23}	datos DOCSIS
+{NEWUSR24}	Direccion MAC CM
+{NEWUSR25}	Direccion de correo electronico
+{NUEVOUSR26}	(4-32 caracteres)
+{NEWUSR27}	normal
+{NUEVOUSR28}	MAC
+{NEWUSR29}	(4-32 caracteres)
+{NEWUSR30}	Permitir solo esta MAC
+{NEWUSR31}	DOCSIS
+{NEWUSR32}	bytes
+{NEWUSR33}	AAAA-MM-DD
+{NUEVOUSR34}	(HH:MM:SS)
+{NEWUSR35}	¡Los campos son obligatorios!
+{NEWUSR36}	Agregar usuario
+{NEWUSR37}	LCA de Mikrotik
+{NEWUSR38}	LCA de StarOS
+{NEWUSR39}	Limite total
+{NEWUSR40}	Nombre
+{NEWUSR41}	Apellido (familiar)
+{NEWUSR42}	Pais
+{NEWUSR43}	Estado
+{NEWUSR44}	Saldo
+{NEWUSR45}	Grupo de usuarios
+{NEWUSR46}	Atributos RADIUS personalizados
+{NEWUSR47}	Modo de direccion IP CM
+{NEWUSR48}	Modo de direccion IP CPE
+{NEWUSR49}	Grupo NAS o DHCP
+{NEWUSR50}	conjunto de direcciones IP
+{NEWUSR51}	Id. de contrato
+{NEWUSR52}	Geolocalizacion (lat., long.)
+{NEWUSR53}	grados.
+{NEWUSR54}	Contrato valido hasta
+{NEWUSR55}	Idioma
+{NEWUSR56}	Mostrar contrasena
+{NEWUSR57}	Generar contrasena
+{NEWUSR58}	CNIC / DNI
+{NEWUSR59}	CNIC pagina 1
+{NEWUSR60}	CNIC pagina 2
+{NEWUSR61}	Contrasena de Radcheck
+{NEWUSR62}	En blanco
+{NEWUSR63}	Definido por el usuario
+{NEWUSR64}	direccion MAC
+
+// usuario de edicion ACP
+
+{EDUSR0}	Editar usuario
+{EDUSR1}	Habilitar
+{EDUSR2}	Contrasena
+{EDUSR3}	Confirmar contrasena
+{EDUSR4}	Direccion MAC CM
+{EDUSR5}	Direccion MAC CPE
+{EDUSR6}	Uso simultaneo
+{EDUSR7}	Nombre de la empresa
+{EDUSR8}	Direccion
+{EDUSR9}	Ciudad
+{EDUSR10}	codigo postal
+{EDUSR11}	Numero de telefono
+{EDUSR12}	Numero de celular
+{EDUSR13}	ID de IVA
+{EDUSR14}	Plan de servicio
+{EDUSR15}	Limite de descarga
+{EDUSR16}	Limite de carga
+{EDUSR17}	Caducidad de la cuenta
+{EDUSR18}	Tiempo disponible en linea
+{EDUSR19}	Saldo
+{EDUSR20}	Codigo PIN fallido
+{EDUSR21}	Comentario
+{EDUSR22}	Nombre de usuario
+{EDUSR23}	Tipo de cuenta
+{EDUSR24}	Estado de la cuenta
+{EDUSR25}	Serie de cartas
+{EDUSR26}	Fecha de registro
+{EDUSR27}	Registrado por
+{EDUSR28}	Estado de conexion
+{EDUSR29}	IP de CPE
+{EDUSR30}	ultimo cierre de sesion
+{EDUSR31}	Cambio de servicio
+{EDUSR32}	Nuevo plan de servicio
+{EDUSR33}	datos DOCSIS
+{EDUSR34}	Grupo de usuarios
+{EDUSR35}	Direccion de correo electronico
+{EDUSR36}	(4-32 caracteres)
+{EDUSR37}	Permitir solo esta MAC
+{EDUSR38}	Atributos RADIUS personalizados
+{EDUSR39}	bytes
+{EDUSR40}	AAAA-MM-DD
+{EDUSR41}	(HH:MM:SS)
+{EDUSR42}	¡Los campos son obligatorios!
+{EDUSR43}	Actualizar usuario
+{EDUSR44}	Limite total
+{EDUSR45}	Nombre
+{EDUSR46}	Apellido (familia)
+{EDUSR47}	Pais
+{EDUSR48}	Estado
+{EDUSR49}	veces
+{EDUSR50}	Alerta enviada
+{EDUSR51}	Identificador de llamadas
+{EDUSR52}	NAS
+{EDUSR53}	Codigo de verificacion de la cuenta
+{EDUSR54}	Verificado
+{EDUSR55}	Codigo de verificacion fallido
+{EDUSR56}	SMS de verificacion de cuenta enviado
+{EDUSR57}	Propietario de la cuenta
+{EDUSR58}	SMS de verificacion enviado a
+{EDUSR59}	Cambiar contrasena
+{EDUSR60}	Modo de direccion IP CM
+{EDUSR61}	modo de direccion IP CPE
+{EDUSR62}	Grupo NAS o DHCP
+{EDUSR63}	conjunto de direcciones IP
+{EDUSR64}	IP estatica
+{EDUSR65}	DS SNR
+{EDUSR66}	poder de EE. UU.
+{EDUSR67}	poder DS
+{EDUSR68}	tiempo de actividad de CM
+{EDUSR69}	CM RTT
+{EDUSR70}	Id. de contrato
+{EDUSR71}	SMS de activacion de contrasena enviado
+{EDUSR72}	CPE MAC
+{EDUSR73}	IP de CPE
+{EDUSR74}	Descripcion general de la cuenta
+{EDUSR75}	Detalles DOCSIS
+{EDUSR76}	nombre de EE. UU.
+{EDUSR77}	Detalles de Wi-Fi
+{EDUSR78}	Punto de acceso
+{EDUSR79}	nivel de potencia de EE. UU.
+{EDUSR80}	SNR de EE. UU.
+{EDUSR81}	EE.UU. CCQ
+{EDUSR82}	Geolocalizacion (lat., long.)
+{EDUSR83}	grados.
+{EDUSR84}	CMTS
+{EDUSR85}	SNR de EE. UU.
+{EDUSR86}	Alerta por correo electronico
+{EDUSR87}	SMS de alerta
+{EDUSR88}	Banderas
+{EDUSR89}	Contrato valido hasta
+{EDUSR90}	Idioma
+{EDUSR91}	Alerta de factura
+{EDUSR92}	Cuota diaria
+{EDUSR93}	Descargar trafico
+{EDUSR94}	Subir trafico
+{EDUSR95}	Trafico total
+{EDUSR96}	Tiempo en linea
+{EDUSR97}	Mostrar contrasena
+{EDUSR98}	Generar contrasena
+{EDUSR99}	CNIC / DNI
+{EDUSR100}	CNIC pagina 1
+{EDUSR101}	CNIC pagina 2
+{EDUSR102}	Quitar
+{EDUSR103}	nombre de SD
+{EDUSR104}	Graficos
+{EDUSR105}	Renovacion automatica
+{EDUSR106}	Editar atributos personalizados
+{EDUSR107}	Contrasena de Radcheck
+{EDUSR108}	En blanco
+{EDUSR109}	Definido por el usuario
+{EDUSR110}	direccion MAC
+
+// ACP agrega creditos
+
+{ADDCRED0}	Anadir creditos
+{ADDCRED1}	Nombre de usuario
+{ADDCRED2}	Plan de servicio activo
+{ADDCRED3}	Descargar unidad de trafico
+{ADDCRED4}	Unidad de fecha de caducidad
+{ADDCRED5}	modo de adicion de credito
+{ADDCRED6}	Modo de pago
+{ADDCRED7}	Precio unitario
+{ADDCRED8}	Cantidad
+{ADDCRED9}	Precio neto
+{ADDCRED10}	Precio total
+{ADDCRED11}	IVA
+{ADDCRED12}	Campo de comentarios en la factura
+{ADDCRED13}	Comentario interno
+{ADDCRED14}	MB
+{ADDCRED15}	normal
+{ADDCRED16}	Modo de creditos adicionales
+{ADDCRED17}	Efectivo
+{ADDCRED18}	Transferencia bancaria
+{ADDCRED19}	Bloquear precio unitario
+{ADDCRED20}	Siguiente
+{ADDCRED21}	¡Advertencia!
+{ADDCRED22}	¡Todas las acciones quedan registradas!
+{ADDCRED23}	lista de facturas
+{ADDCRED24}	informe de trafico
+{ADDCRED25}	¿Son correctos los datos?
+{ADDCRED26}	Subir unidad de trafico
+{ADDCRED27}	Unidad de trafico total
+{ADDCRED28}	Unidad de tiempo en linea
+{ADDCRED29}	Bloquear cantidad
+
+// ACP confirma agregar creditos
+
+{CFMADDCRED0}	Confirmar agregar creditos
+{CFMADDCRED1}	Nombre de usuario
+{CFMADDCRED2}	Plan de servicio activo
+{CFMADDCRED3}	Modo de pago seleccionado
+{CFMADDCRED4}	Descargar unidad de trafico
+{CFMADDCRED5}	Unidad de fecha de caducidad
+{CFMADDCRED6}	Precio unitario
+{CFMADDCRED7}	Cantidad
+{CFMADDCRED8}	Precio neto
+{CFMADDCRED9}	Precio total
+{CFMADDCRED10}	IVA
+{CFMADDCRED11}	Datos adicionales
+{CFMADDCRED12}	Nueva fecha de caducidad
+{CFMADDCRED13}	Descargar trafico para agregar
+{CFMADDCRED14}	Tiempo en linea para agregar
+{CFMADDCRED15}	AAAA-MM-DD
+{CFMADDCRED16}	MB
+{CFMADDCRED17}	hora(s)
+{CFMADDCRED18}	Terminar
+{CFMADDCRED19}	¡Presiona el boton solo una vez!
+{CFMADDCRED20}	¿Esta seguro de agregar creditos?
+{CFMADDCRED21}	Subir unidad de trafico
+{CFMADDCRED22}	Unidad de trafico total
+{CFMADDCRED23}	Cargar trafico para agregar
+{CFMADDCRED24}	Trafico total para agregar
+{CFMADDCRED25}	Unidad de tiempo en linea
+
+// Creditos ACP + UCP agregados
+
+{CRDADDED0}	Creditos agregados
+{CRDADDED1}	Creditos agregados con exito
+{CRDADDED2}	imprimir factura
+
+// ACP agregar deposito de dinero
+
+{ADDMONEY0}	Agregar deposito
+{ADDMONEY1}	Nombre de usuario
+{ADDMONEY2}	Modo de pago
+{ADDMONEY3}	Precio bruto
+{ADDMONEY4}	Campo de comentarios en la factura
+{ADDMONEY5}	Comentario interno
+{ADDMONEY6}	Usar cantidad negativa para cancelar una factura
+{ADDMONEY7}	Terminar
+{ADDMONEY8}	¡Advertencia!
+{ADDMONEY9}	¡Todas las acciones quedan registradas!
+{ADDMONEY10}	lista de facturas
+{ADDMONEY11}	informe de trafico
+{ADDMONEY12}	Efectivo
+{ADDMONEY13}	Transferencia bancaria
+{ADDMONEY14}	¿Estas seguro de agregar dinero?
+
+// Facturacion pospago ACP
+
+{POSTPBILL0}	Facturacion de pospago
+{POSTPBILL1}	Nombre de usuario
+{POSTPBILL2}	Desde
+{POSTPBILL3}	Para
+{POSTPBILL4}	Plan de servicio
+{POSTPBILL5}	Siguiente >
+{POSTPBILL6}	lista de facturas
+{POSTPBILL7}	informe de trafico
+{POSTPBILL8}	AAAA-MM-DD
+
+// ACP confirma facturacion pospago
+
+{CFMPOSTPBL0}	Confirmar facturacion de pospago
+{CFMPOSTPBL1}	Nombre de usuario
+{CFMPOSTPBL2}	Desde la fecha
+{CFMPOSTPBL3}	Hasta la fecha
+{CFMPOSTPBL4}	Informe de trafico
+{CFMPOSTPBL5}	Servicios usados â€‹â€‹en calculo de precio
+{CFMPOSTPBL6}	Tiempo en linea
+{CFMPOSTPBL7}	Plan de servicio
+{CFMPOSTPBL8}	Precio unitario neto
+{CFMPOSTPBL9}	Precio unitario adicional neto
+{CFMPOSTPBL10}	Precio adicional neto
+{CFMPOSTPBL11}	Modo de pago
+{CFMPOSTPBL12}	Descripcion del articulo
+{CFMPOSTPBL13}	Precio neto
+{CFMPOSTPBL14}	Precio bruto
+{CFMPOSTPBL15}	IVA
+{CFMPOSTPBL16}	Campo de comentarios en la factura
+{CFMPOSTPBL17}	Comentario interno
+{CFMPOSTPBL18}	Usar cantidad negativa para cancelar una factura
+{CFMPOSTPBL19}	Terminar
+{CFMPOSTPBL20}	Â¡Los campos son obligatorios!
+{CFMPOSTPBL21}	Efectivo
+{CFMPOSTPBL22}	Transferencia bancaria
+{CFMPOSTPBL23}	¿Esta seguro de crear la factura?
+{CFMPOSTPBL24}	lista de facturas
+
+// Factura pospago ACP creada
+
+{POSTPINVOK0}	Facturacion de pospago
+{POSTPINVOK1}	Factura de pospago creada correctamente
+{POSTPINVOK2}	imprimir factura
+
+//Informe de trafico ACP + UCP
+
+{TRAFFREP0}	Informe de trafico (sesiones RADIUS)
+{TRAFFREP1}	Fecha
+{TRAFFREP2}	Nombre de usuario
+{TRAFFREP3}	tiempo en linea
+{TRAFFREP4}	Descargar
+{TRAFFREP5}	Subir
+{TRAFFREP6}	total
+
+// Informe de trafico diario ACP
+
+{TRAFFREPDLY0}	Informe de trafico diario
+{TRAFFREPDLY1}	Fecha
+{TRAFFREPDLY2}	Nombre
+ de usuario
+{TRAFFREPDLY3}	tiempo en linea
+{TRAFFREPDLY4}	Descargar
+{TRAFFREPDLY5}	Subir
+{TRAFFREPDLY6}	Total
+
+// Informe de trafico detallado ACP + UCP
+
+{DETTRAFFREP0}	Informe de trafico detallado (sesiones RADIUS)
+{DETTRAFFREP1}	Nombre de usuario
+{DETTRAFFREP2}	Hora de inicio
+{DETTRAFFREP3}	Hora de finalizacion
+{DETTRAFFREP4}	Tiempo en linea
+{DETTRAFFREP5}	Descargar
+{DETTRAFFREP6}	Subir
+{DETTRAFFREP7}	direccion IP
+{DETTRAFFREP8}	Identificador de llamadas
+{DETTRAFFREP9}	Sesion activa
+{DETTRAFFREP10}	TOTALES
+{DETTRAFFREP11}	Total
+{DETTRAFFREP12}	NAS
+{DETTRAFFREP13}	Gratis
+{DETTRAFFREP14}	Tiempo<br>en linea gratis
+{DETTRAFFREP15}	Descarga<br>gratuita
+{DETTRAFFREP16}	Carga<br>gratuita
+{DETTRAFFREP17}	Gratis<br>total
+{DETTRAFFREP18}	PA
+
+// Facturas lista ACP + UCP
+
+{LSTINV0}	Lista de facturas
+{LSTINV1}	Numero de factura<br>
+{LSTINV2}	Fecha
+{LSTINV3}	Descripcion
+{LSTINV4}	Creado por
+{LSTINV5}	Cliente
+{LSTINV6}	Precio
+{LSTINV7}	Saldo
+{LSTINV8}	N/D
+{LSTINV9}	Limite de tiempo en linea
+{LSTINV10}	Accion
+{LSTINV11}	Comentario
+{LSTINV12}	Transacciones completadas
+{LSTINV13}	Transacciones pendientes
+{LSTINV14}	TOTAL
+{LSTINV15}	Transferencias internas
+{LSTINV16}	Factura sin pagar
+{LSTINV17}	Periodo de gracia vencido
+{LSTINV18}	<b>C</b> - Efectivo, <b>T</b> - Transferencia bancaria, <b>O</b> - Pago en linea, <b>I</b> - Transferencia interna, <b>P</b> - Tarjeta prepago
+{LSTINV19}	Disponible<br>DL/UL/total
+{LSTINV20}	Agregado<br>tiempo
+{LSTINV21}	anadido<br>dias
+{LSTINV22}	horas
+{LSTINV23}	Recargas de tarjetas
+{LSTINV24}	Dias / fecha de caducidad
+{LSTINV25}	anadido<br>DL/UL/total
+{LSTINV26}	Tiempo disponible<br>en linea
+{LSTINV27}	Caducidad
+{LSTINV28}	Anadido<br>horas
+{LSTINV29}	Anadido<br>dias
+{LSTINV30}	Inv.<br>tipo
+{LSTINV31}	RESUMEN CONTABLE
+
+// ACP editar factura
+
+{EDITINV0}	Editar factura
+{EDITINV1}	Datos de la factura
+{EDITINV2}	Numero de factura
+{EDITINV3}	Fecha de la factura
+{EDITINV4}	Opcion de pago
+{EDITINV5}	Modo de pago
+{EDITINV6}	Descripcion
+{EDITINV7}	Precio unitario
+{EDITINV8}	Cantidad
+{EDITINV9}	Precio
+{EDITINV10}	porcentaje de IVA
+{EDITINV11}	IVA
+{EDITINV12}	Precio total
+{EDITINV13}	Pago completado
+{EDITINV14}	Comentario
+{EDITINV15}	Datos de credito
+{EDITINV16}	Nombre del administrador
+{EDITINV17}	Nombre de usuario
+{EDITINV18}	Trafico de descarga agregado
+{EDITINV19}	Nuevo limite de descarga
+{EDITINV20}	Nuevo limite de carga
+{EDITINV21}	Hora anadida
+{EDITINV22}	Limite de tiempo en linea
+{EDITINV23}	dias anadidos
+{EDITINV24}	Fecha de caducidad
+{EDITINV25}	Actualizar factura
+{EDITINV26}	imprimir factura
+{EDITINV27}	Saldo
+{EDITINV28}	Subir trafico agregado
+{EDITINV29}	Trafico total agregado
+{EDITINV30}	Nuevo limite total
+{EDITINV31}	Id. de transaccion de puerta de enlace
+{EDITINV32}	Nombre completo
+{EDITINV33}	Direccion
+{EDITINV34}	Ciudad
+{EDITINV35}	codigo postal
+{EDITINV36}	Pais
+{EDITINV37}	Estado
+{EDITINV38}	AAAA-MM-DD
+
+// ACP cambiar plan de servicio
+
+{CHGSRVADM0}	Cambiar plan de servicio
+{CHGSRVADM1}	Plan de servicio actual
+{CHGSRVADM2}	Nuevo plan de servicio
+{CHGSRVADM3}	Terminar
+{CHGSRVADM4}	Programado para
+
+// historial del plan de servicio ACP
+
+{SRVHIST0}	historial del plan de servicio
+{SRVHIST1}	Solicitado el
+{SRVHIST2}	Solicitado por
+{SRVHIST3}	Solicitado para
+{SRVHIST4}	Programado para
+{SRVHIST5}	Nombre del plan de servicio
+{SRVHIST6}	Estado
+
+// ACP encuentra facturas
+
+{FNDINV0} Lista de facturas
+{FNDINV1}	Desde la fecha
+{FNDINV2}	Hasta la fecha
+{FNDINV3}	Del numero de factura
+{FNDINV4}	Emitido por
+{FNDINV5}	Emitido a
+{FNDINV6}	Tipo de pago
+{FNDINV7}	Buscar
+{FNDINV8}	Todas las transacciones
+{FNDINV9}	Efectivo
+{FNDINV10}	Transferencia bancaria
+{FNDINV11}	Transferencia interna
+{FNDINV12}	Recarga de credito con tarjeta
+{FNDINV13}	(sin prefijo)
+{FNDINV14}	Pagos en el sitio web de PayPal Pro
+{FNDINV15}	Pago express de PayPal
+{FNDINV16}	Id. de transaccion de pasarela de pago
+{FNDINV17}	Comentario
+{FNDINV18}	AAAA-MM-DD
+{FNDINV19}	Transacciones de
+{FNDINV20}	Solo facturas
+{FNDINV21}	Usuarios
+{FNDINV22}	Administradores
+{FNDINV23}	Estandar de pagos del sitio web de PayPal
+{FNDINV24}	Netcash
+{FNDINV25}	Authorize.Net
+{FNDINV26}	Al numero de factura
+{FNDINV27}	Tipo
+{FNDINV28}	Pago expres de DPS
+{FNDINV29}	2Pagar
+{FNDINV30}	Estado de pago pospago
+{FNDINV31}	Cualquiera
+{FNDINV32}	sin pagar
+{FNDINV33}	Periodo de gracia vencido
+{FNDINV34}	Propietario de la cuenta
+{FNDINV35}	Pago rapido
+{FNDINV36}	PayU
+{FNDINV37}	Pago
+{FNDINV38}	bKash
+{FNDINV39}	personalizado
+{FNDINV40}	Flutterwave
+{FNDINV41}	Pago Facil
+{FNDINV42}	MPESA
+
+// Servicio de compra UCP
+
+{BUYSRV0}	Recargar cuenta
+{BUYSRV1}	Servicio activo
+{BUYSRV2}	Descargar unidad de trafico
+{BUYSRV3}	Unidad de fecha de caducidad
+{BUYSRV4}	creditos por unidad
+{BUYSRV5}	Cantidad
+{BUYSRV6}	¡Los campos son obligatorios!
+{BUYSRV7}	Siguiente >
+{BUYSRV8}	Subir unidad de trafico
+{BUYSRV9}	Unidad de trafico total
+{BUYSRV10}	Unidad de tiempo en linea
+
+// UCP compra DEPoSITO
+
+{BUYDPST0}	Deposito de compra en linea
+{COMPRARDPST1}	Importe
+{BUYDPST2}	¡Los campos son obligatorios!
+{BUYDPST3}	Enviar
+
+// generador de tarjetas ACP
+
+{CARDGEN0}	Generador de tarjetas prepago
+{CARDGEN1}	Cantidad
+{CARDGEN2}	Secreto
+{CARDGEN3}	Valor bruto de la tarjeta
+{CARDGEN4}	Valido hasta
+{CARDGEN5}	Tipo de tarjeta
+{CARDGEN6}	Plan de servicio
+{CARDGEN7}	Limite de descarga
+{CARDGEN8}	Limite de carga
+{CARDGEN9}	Limite de tiempo en linea
+{CARDGEN10}	Caducidad
+{CARDGEN11}	Tiempo disponible desde la activacion de la tarjeta
+{CARDGEN12}	Los campos son obligatorios
+{CARDGEN13}	Generar tarjetas
+{CARDGEN14}	tarjetas
+{CARDGEN15}	(4-16 caracteres)
+{CARDGEN16}	AAAA-MM-DD
+{CARDGEN17}	Prepago clasico
+{CARDGEN18}	Recarga
+{TARJETAGEN19}	MB
+{CARDGEN20}	Horas
+{CARDGEN21}	Definido por valido hasta
+{CARDGEN22}	Calculado a partir de la activacion de la tarjeta
+{CARDGEN23}	Dias
+{CARDGEN24}	Limite total
+{CARDGEN25}	Caducidad
+{CARDGEN26}	Se requiere verificacion por SMS
+{CARDGEN27}	Longitud del PIN
+{CARDGEN28}	Longitud de la contrasena
+{CARDGEN29}	Uso simultaneo
+{CARDGEN30}	Prefijo
+{CARDGEN31}	Grupo de usuarios
+
+// estadisticas de la tarjeta ACP
+
+{CARDSTAT0}	Estadisticas de la tarjeta
+{CARDSTAT1}	Estadisticas generales
+{CARDSTAT2}	Serie total generada
+{CARDSTAT3}	Total de tarjetas generadas
+{CARDSTAT4}	Estadisticas de tarjetas de tarjeta de recarga
+{CARDSTAT5}	Serie generada
+{CARDSTAT6}	Tarjetas generadas
+{CARDSTAT7}	Valor total
+{CARDSTAT8}	Tarjetas sin usar
+{CARDSTAT9}	Tarjetas usadas
+{CARDSTAT10}	Valor no utilizado
+{CARDSTAT11}	Valor utilizado
+{CARDSTAT12}	Estadisticas de tarjetas prepago clasicas
+{CARDSTAT13}	Serie generada
+{CARDSTAT14}	Tarjetas generadas
+{CARDSTAT15}	Valor total
+
+// Facturacion por lotes pospago ACP
+
+{BATCHBILL0}	Generar facturas pospago
+{BATCHBILL1}	Desde la fecha
+{BATCHBILL2}	Hasta la fecha
+{BATCHBILL3}	Siguiente >
+{BATCHBILL4}	Seleccione el periodo de facturacion
+{BATCHBILL5}	AAAA-MM-DD
+{BATCHBILL6}	Tipo de pago
+{BATCHBILL7}	Efectivo
+{BATCHBILL8}	Transferencia bancaria
+{BATCHBILL9}	Grupo de usuarios
+{BATCHBILL10}	Incluir cuentas inactivas
+{BATCHBILL11}	Incluir cuentas inhabilitadas
+
+// ACP confirma facturacion por lotes
+
+{CFMBATCHBILL0}	Confirmar creacion de facturas
+{CFMBATCHBILL1}	Terminar
+{CFMBATCHBILL2}	Generar facturas pospago
+{CFMBATCHBILL3}	Al hacer clic en el boton a continuacion, se generan facturas para TODOS LOS USUARIOS POSTPAGO.
+{CFMBATCHBILL4}	Desde la fecha
+{CFMBATCHBILL5}	Hasta la fecha
+{CFMBATCHBILL6}	Servicio 
+{CFMBATCHBILL7}	Grupo de usuarios
+{CFMBATCHBILL8}	Incluir facturas con precio cero
+{CFMBATCHBILL9}	Incluir cuentas inhabilitadas
+
+// plan de servicio de cambio de UCP
+
+{CHGSRVUSR0}	Cambiar plan de servicio
+{CHGSRVUSR1}	Plan de servicio actual
+{CHGSRVUSR2}	Nuevo plan de servicio
+{CHGSRVUSR3}	Siguiente >
+
+// UCP seleccionar modo de pago
+
+{SELPM0}	Seleccionar metodo de pago
+{SELPM1}	Esta a punto de comprar el siguiente servicio
+{SELPM2}	Plan de servicio
+{SELPM3}	Cantidad
+{SELPM4}	Precio total
+{SELPM5}	Siguiente >
+{SELPM6}	Metodos de pago disponibles
+{SELPM7}	Tarjeta de credito
+{SELPM8}	PayPal
+{SELPM9}	Interno
+
+// UCP cancelar cambio de servicio
+
+{CFMCCLCHGSVC0}	Cancelar cambio de servicio
+{CFMCCLCHGSVC1}	Esta a punto de cancelar un cambio de servicio
+{CFMCCLCHGSVC2}	Cancelar cambio de servicio
+
+// UCP confirma cambio de servicio
+
+{CFMCHGSVC0}	Confirmar cambio de servicio
+{CFMCHGSVC1}	Esta a punto de cambiar el plan de servicio actual
+{CFMCHGSVC2}	Nuevo plan de servicio
+{CFMCHGSVC3}	Fecha de solicitud
+{CFMCHGSVC4}	Programado hasta la fecha
+{CFMCHGSVC5}	Terminar
+
+// ACP confirma el administrador de eliminacion
+
+{CFMDELMAN0}	Mensaje del sistema
+{CFMDELMAN1}	Eliminar administrador
+{CFMDELMAN2}	Eliminar administrador
+
+// ACP confirma el servicio de eliminacion
+
+{CFMDELSVC0}	Mensaje del sistema
+{CFMDELSVC1}	Eliminar servicio
+{CFMDELSVC2}	Eliminar servicio
+
+// ACP confirma eliminar IAS
+
+{CFMDELIAS0}	Mensaje del sistema
+{CFMDELIAS1}	Eliminar plantilla IAS
+{CFMDELIAS2}	Eliminar
+
+// ACP confirma eliminar usuario
+
+{CFMDELUSR0}	Mensaje del sistema
+{CFMDELUSR1}	Eliminar cuenta
+{CFMDELUSR2}	Eliminar
+
+// ACP confirma generar tarjetas
+
+{CFMCARDGEN0}	Confirmar generacion de tarjetas
+{CFMCARDGEN1}	Esta a punto de generar
+{CFMCARDGEN2}	tarjetas prepagas
+{CFMCARDGEN3}	Datos generales de la tarjeta
+{CFMCARDGEN4}	Tipo de tarjeta
+{CFMCARDGEN5}	Valor neto
+{CFMCARDGEN6}	Valido hasta
+{CFMCARDGEN7}	Datos de servicio
+{CFMCARDGEN8}	Plan de servicio
+{CFMCARDGEN9}	Limite de descarga
+{CFMCARDGEN10}	Limite de carga
+{CFMCARDGEN11}	Limite de tiempo en linea
+{CFMCARDGEN12}	Caducidad
+{CFMCARDGEN13}	
+{CFMCARDGEN14}	Generar tarjetas
+{CFMCARDGEN15}	
+{CFMCARDGEN16}	Limite de trafico total
+{CFMCARDGEN17}	Grupo de usuarios
+
+// Administradores de listas ACP
+
+{LSTMNGR0}	Administradores de listas
+{LSTMNGR1}	Nombre del administrador
+{LSTMNGR2}	Nombre
+{LSTMNGR3}	Saldo
+{LSTMNGR4}	Comentario
+{LSTMNGR5}	Accion
+{LSTMNGR6}	Activo
+{LSTMNGR7}	Deshabilitado
+{LSTMNGR8}	TOTALES
+{LSTMNGR9}	Habilitar
+{LSTMNGR10}	Deshabilitar
+{LSTMNGR11}	Eliminar
+{LSTMNGR12}	Apellido
+
+//
+ Lista ACP NAS
+
+{LSTNAS0}	Lista NAS
+{LSTNAS1}	Nombre del NAS
+{LSTNAS2}	direccion IP
+{LSTNAS3}	Tipo
+{LSTNAS4}	Descripcion
+{LSTNAS5}	Accion
+{LSTNAS6}	Eliminar
+
+// ACP lista AP
+
+{LSTAP0}	Lista de puntos de acceso
+{LSTAP1}	Nombre
+{LSTAP2}	direccion IP
+{LSTAP3}	Modo de acceso
+{LSTAP4}	Descripcion
+{LSTAP5}	Accion
+{LSTAP6}	Habilitar
+{LSTAP7}	Deshabilitar
+{LSTAP8}	Eliminar
+{LSTAP9}	Habilitado
+{LSTAP10}	Deshabilitado
+
+// ACP NUEVO PA
+
+{NEWAP0}	Nuevo punto de acceso
+{NEWAP1}	Habilitar
+{NEWAP2}	Nombre
+{NEWAP3}	direccion IP
+{NEWAP4}	Modo de acceso
+{NEWAP5}	SNMP (Microtik, UBNT <5)
+{NEWAP6}	API de Mikrotik
+{NEWAP7}	comunidad SNMP
+{NEWAP8}	nombre de usuario de la API
+{NEWAP9}	contrasena de la API
+{NEWAP10}	Descripcion
+{NEWAP11}	¡Los campos son obligatorios!
+{NEWAP12}	Tienda AP
+{NEWAP13}	SNMP (UBNT 5+)
+{NEWAP14}	Version de la API
+{NEWAP15}	Anterior a 6.45.1
+{NEWAP16}	6.45.1 o posterior
+
+// ACP editar AP
+
+{EDITAP0}	Editar punto de acceso
+{EDITAP1}	Habilitar
+{EDITAP2}	Nombre
+{EDITAP3}	direccion IP
+{EDITAP4}	Modo de acceso
+{EDITAP5}	SNMP (Mikrotik, UBNT <5)
+{EDITAP6}	API de Mikrotik
+{EDITAP7}	comunidad SNMP
+{EDITAP8}	nombre de usuario de la API
+{EDITAP9}	Contrasena de la API
+{EDITAP10}	Descripcion
+{EDITAP11}	¡Los campos son obligatorios!
+{EDITAP12}	Actualizar PA
+{EDITAP13}	eliminar
+{EDITAP14}	SNMP (UBNT 5+)
+{EDITAP15}	Version de la API
+{EDITAP16}	Anterior a 6.45.1
+{EDITAP17}	6.45.1 o posterior
+
+// ACP confirma eliminar AP
+
+{CFMDELAP0}	Mensaje del sistema
+{CFMDELAP1}	Eliminar AP
+{CFMDELAP2}	Eliminar AP
+
+// ACP enumera los grupos de direcciones IP
+
+{LSTPOOL0}	Lista de grupos de IP
+{LSTPOOL1}	Nombre del grupo
+{LSTPOOL2}	Direccion de inicio
+{LSTPOOL3}	Direccion final
+{LSTPOOL4}	Grupo siguiente
+{LSTPOOL5}	Descripcion
+{LSTPOOL6}	 Accion
+{LSTPOOL7}	Eliminar
+{LSTPOOL8}	Tipo
+
+// lista ACP CMTS
+
+{LSTCMTS0}	Lista de CMTS
+{LSTCMTS1}	Accion
+{LSTCMTS2}	Eliminar
+{LSTCMTS3}	Nombre
+{LSTCMTS4}	direccion IP
+{LSTCMTS5}	Comunidad
+{LSTCMTS6}	Descripcion
+
+// plan de servicio de lista ACP
+
+{LSTSRV0}	Lista de planes de servicio
+{LSTSRV1}	Plan de servicio
+{LSTSRV2}	Precio bruto
+{LSTSRV3}	conjunto de direcciones IP
+{LSTSRV4}	tasa de DL<br>(kbps)
+{LSTSRV5}	Velocidad UL<br>(kbps)
+{LSTSRV6}	Limite<br>de descargas
+{LSTSRV7}	Carga<br>limite
+{LSTSRV8}	limite<br>de caducidad
+{LSTSRV9}	Tiempo en linea<br>limite
+{LSTSRV10}	Accion
+{LSTSRV11}	Activo
+{LSTSRV12}	Deshabilitado
+{LSTSRV13}	Habilitar
+{LSTSRV14}	Deshabilitar
+{LSTSRV15}	Eliminar
+{LSTSRV16}	Limite<br>total
+{LSTSRV17}	Proximo servicio<br>caducado
+{LSTSRV18}	Cisco DL<br>mapa de politicas
+{LSTSRV19}	Cisco UL<br>mapa de politicas
+{LSTSRV20}	Proximo servicio<br>diario
+{LSTSRV21}	Siguiente servicio<br>inhabilitado
+
+// ACP enumera el historial del plan de servicio pequeno
+
+{LSTSRVHISTSM0}	Servicios usados
+{LSTSRVHISTSM1}	Fecha
+{LSTSRVHISTSM2}	Plan de servicio
+{LSTSRVHISTSM3}	Desde
+{LSTSRVHISTSM4}	A la hora
+{LSTSRVHISTSM5}	Descarga total<br>/cuota excedida
+{LSTSRVHISTM6}	Subida total<br>/cuota excedida
+{LSTSRVHISTSM7}	Tiempo en linea
+{LSTSRVHISTSM8}	Precio neto
+{LSTSRVHISTSM9}	IVA
+{LSTSRVHISTSM10}	Precio
+
+// Serie de tarjetas de lista ACP
+
+{LSTCARDSER0}	Serie de tarjetas de lista
+{LSTCARDSER1}	Serie 
+{LSTCARDSER2}	Tipo de tarjeta
+{LSTCARDSER3}	generado el
+{LSTCARDSER4}	Valido hasta
+{LSTCARDSER5}	Valor bruto de la tarjeta<br>
+{LSTCARDSER6}	Cantidad
+{LSTCARDSER7}	Plan de servicio
+{LSTCARDSER8}	Limite de descarga<br>(MB)
+{LSTCARDSER9}	Limite de carga<br>(MB)
+{LSTCARDSER10}	Tiempo en linea<br>limite
+{LSTCARDSER11}	Tiempo disponible<br>desde la activacion
+{LSTCARDSER12}	CSV<br>exportacion
+{LSTCARDSER13}	Accion
+{LSTCARDSER14}	Todo activo
+{LSTCARDSER15}	Todo revocado
+{LSTCARDSER16}	revocado parcialmente
+{LSTCARDSER17}	Revocar serie
+{LSTCARDSER18}	Activar serie
+{LSTCARDSER19}	Eliminar serie
+{LSTCARDSER20}	Trafico total<br>limite (MB)
+{LSTCARDSER21}	CSV
+{LSTCARDSER22}	PDF<br>exportar
+{LSTCARDSER23}	PDF
+
+// Tarjetas de recarga lista ACP
+
+{LSTRFL0}	Lista de tarjetas de recarga
+{LSTRFL1}	Accion
+{LSTRFL2}	Habilitar
+{LSTRFL3}	Revocar
+{LSTRFL4}	Eliminar
+{LSTRFL5}	Activo
+{LSTRFL6}	Caducado
+{LSTRFL7}	revocado
+{LSTRFL8}	PIN
+{LSTRFL9}	Serie
+{LSTRFL10}	Activado por
+{LSTRFL11}	Activado el
+{LSTRFL12}	Caducidad
+{LSTRFL13}	Valor bruto de tarjeta<br>
+{LSTRFL14}	generado el
+
+// ACP nuevo nas
+
+{NEWNAS0}	NAS nuevo
+{NEWNAS1}	Nombre del NAS
+{NEWNAS2}	direccion IP
+{NEWNAS3}	Tipo
+{NEWNAS4}	Secreto
+{NEWNAS5}	Descripcion
+{NEWNAS6}	¡Los campos son obligatorios!
+{NEWNAS7}	Anadir NAS
+{NEWNAS8}	Contrasena
+{NEWNAS9}	Mikrotik, Chillispot, Cisco
+{NEWNAS10}	Solo Star OS
+{NEWNAS11}	Soporte de ancho de banda de Cisco
+{NEWNAS12}	Ninguno
+{NEWNAS13}	Limite de frecuencia
+{NEWNAS14}	Mapa de politicas
+{NEWNAS15}	nombre de usuario de la API
+{NEWNAS16}	Contrasena de la API
+{NEWNAS17}	Microfono
+{NEWNAS18}	Velocidad de datos dinamica
+{NEWNAS19}	Deshabilitado
+{NEWNAS20}	API de Mikrotik (< MT v6)
+{NEWNAS21}	CoA (MT 6+)
+{NEWNAS22}	Version de la API
+{NEWNAS23}	Anterior a 6.45.1
+{NEWNAS24}	6.45.1 o mas reciente
+
+// ACP editar nas
+
+{EDITNAS0}	Editar NAS
+{EDITNAS1}	Nombre del NAS
+{EDITNAS2}	direccion IP
+{EDITNAS3}	Tipo
+{EDITNAS4}	Secreto
+{EDITNAS5}	Descripcion
+{EDITNAS6}	¡Los campos son obligatorios!
+{EDITNAS7}	Actualizar NAS
+{EDITNAS8}	borrar
+{EDITNAS9}	Contrasena
+{EDITNAS10}	Mikrotik, Chillispot, Cisco
+{EDITNAS11}	Solo Star OS
+{EDITNAS12}	Soporte de ancho de banda de Cisco
+{EDITNAS13}	Ninguno
+{EDITNAS14}	Limite de tasa
+{EDITNAS15}	Mapa de politicas
+{EDITNAS16}	nombre de usuario de la API
+{EDITNAS17}	Contrasena API
+{EDITNAS18}	Mikrotik
+{EDITNAS19}	Velocidad de datos dinamica
+{EDITNAS20}	Deshabilitado
+{EDITNAS21}	API de Mikrotik (<MT v6)
+{EDITNAS22}	CoA (MT 6+)
+{EDITNAS23}	Version de la API
+{EDITNAS24}	Anterior a 6.45.1
+{EDITNAS25}	6.45.1 o posterior
+
+// ACP confirma eliminar nas
+
+{CFMDELNAS0}	Mensaje del sistema
+{CFMDELNAS1}	Eliminar NAS
+{CFMDELNAS2}	Eliminar NAS
+
+// ACP nuevo grupo de direcciones IP
+
+{NEWPOOL0}	Nuevo grupo de direcciones IP
+{NEWPOOL1}	Nombre del grupo
+{NEWPOOL2}	Primera IP
+{NEWPOOL3}	ultima IP
+{NEWPOOL4}	Siguiente grupo
+{NEWPOOL5}	Descripcion
+{NEWPOOL6}	¡Los campos son obligatorios!
+{NEWPOOL7}	Grupo de tiendas
+{NEWPOOL8}	Tipo
+{NEWPOOL9}	DOCSIS
+{NEWPOOL10}	RADIO
+
+// ACP edita grupo de IP
+
+{EDITPOOL0}	Editar grupo de IP
+{EDITPOOL1}	Nombre del grupo
+{EDITPOOL2}	Primera IP
+{EDITPOOL3}	ultima IP
+{EDITPOOL4}	Siguiente grupo
+{EDITPOOL5}	Descripcion
+{EDITPOOL6}	Â¡Los campos son obligatorios!
+{EDITPOOL7}	Grupo de actualizaciones
+{EDITPOOL8}	borrar
+{EDITPOOL9}	Tipo
+
+// ACP confirma la eliminacion del grupo de IP
+
+{CFMDELPOOL0} Mensaje del sistema
+{CFMDELPOOL1}	Eliminar grupo de IP
+{CFMDELPOOL2}	Eliminar grupo de IP
+
+// ACP nuevo CMTS
+
+{NEWCMTS0}	Nuevo CMTS
+{NEWCMTS1}	Nombre
+{NEWCMTS2}	direccion IP
+{NEWCMTS3}	Comunidad SNMP
+{NEWCMTS4}	Descripcion
+{NEWCMTS5}	¡Los campos son obligatorios!
+{NEWCMTS6}	Tienda CMTS
+
+// ACP editar CMTS
+
+{EDITCMTS0}	Editar CMTS
+{EDITCMTS1}	Nombre
+{EDITCMTS2}	direccion IP
+{EDITCMTS3}	comunidad SNMP
+{EDITCMTS4}	Descripcion
+{EDITCMTS5}	¡Los campos son obligatorios!
+{EDITCMTS6}	Actualizar CMTS
+{EDITCMTS7}	borrar
+
+// ACP confirma eliminar CMTS
+
+{CFMDELCMTS0}	Mensaje del sistema
+{CFMDELCMTS1}	Eliminar CMTS
+{CFMDELCMTS2}	Eliminar CMTS
+
+// ACP nuevo administrador
+
+{NEWMGR0}	Nuevo administrador
+{NEWMGR1}	Nombre del administrador
+{NEWMGR2}	Habilitar
+{NEWMGR3}	Contrasena
+{NEWMGR4}	Confirmar contrasena
+{NEWMGR5}	Nombre
+{NEWMGR6}	Numero de telefono
+{NEWMGR7}	Numero de celular
+{NEWMGR8}	Direccion
+{NEWMGR9}	Ciudad
+{NEWMGR10}	CoDIGO POSTAL
+{NEWMGR11}	Comentario
+{NEWMGR12}	(4-32 caracteres)
+{NEWMGR13}	Permisos
+{NEWMGR14}	Lista de usuarios
+{NEWMGR15}	Registrar usuarios
+{NEWMGR16}	Editar usuarios
+{NEWMGR17}	Eliminar usuarios
+{NEWMGR18}	Acceder a facturas
+{NEWMGR19}	Accede a todas las facturas
+{NEWMGR20}	Editar facturas
+{NEWMGR21}	Correo electronico
+{NEWMGR22}	Permitir saldo negativo
+{NEWMGR23}	Administradores de listas
+{NEWMGR24}	Administradores de registros
+{NEWMGR25}	Editar administradores
+{NEWMGR26}	Eliminar administradores
+{NEWMGR27}	Lista de usuarios en linea
+{NEWMGR28}	Desconectar usuarios
+{NEWMGR29}	Funciones de facturacion
+{NEWMGR30}	Informe de trafico general
+{NEWMGR31}	Sistema de tarjetas e IAS
+{NEWMGR32}	Mostrar planes de servicio
+{NEWMGR33}	Registrar planes de servicio
+{NEWMGR34}	Editar planes de servicio
+{NEWMGR35}	Eliminar planes de servicio
+{NEWMGR36}	Marcar todo
+{NEWMGR37}	Borrar todo
+{NEWMGR38}	¡Los campos son obligatorios!
+{NEWMGR39}	Gerente de tienda
+{NEWMGR40}	Apellido (familia)
+{NEWMGR41}	Acceder a todos los usuarios
+{NEWMGR42}	Datos generales
+{NEWMGR43}	Nombre de la empresa
+{NEWMGR44}	Pais
+{NEWMGR45}	Estado
+{NEWMGR46}	ID de IVA
+{NEWMGR47}	Permitir precios con descuento
+{NEWMGR48}	Editar datos de usuarios privilegiados
+{NEWMGR49}	Habilitar cancelacion de facturas
+{NEWMGR50}	Mantener puntos de acceso
+{NEWMGR51}	Informe de conexion
+{NEWMGR52}	Resumen contable
+{NEWMGR53}	Idioma
+{NEWMGR54}	Enviar correo electronico
+{NEWMGR55}	Enviar SMS
+
+// Plan de servicio nuevo ACP
+
+{NEWSRV0}	Nuevo plan de servicio
+{NEWSRV1}	General
+{NEWSRV2}	Nombre del plan
+{NEWSRV3}	Habilitar
+{NEWSRV4}	Tipo de plan
+{NEWSRV5}	Prepago normal
+{NEWSRV6}	Tarjeta prepaga o IAS
+{NEWSRV7}	Pospago
+{NEWSRV8}	Correo electronico
+{NEWSRV9}	Limitar descarga
+{NEWSRV10}	Limitar carga
+{NEWSRV11}	Modo de limite de tiempo
+{NEWSRV12}	Caducidad del limite
+{NEWSRV13}	Limite el tiempo en linea
+{NEWSRV14}	Sin limites de tiempo
+{NEWSRV15}	Cuota de descarga
+ por dia
+{NEWSRV16}	Cuota de carga por dia
+{NEWSRV17}	Cuota de tiempo por dia
+{NEWSRV18}	Velocidad de datos (DL/UL)
+{NEWSRV19}	Habilitar modo rafaga
+{NEWSRV20}	Limite de rafaga (DL/UL)
+{NEWSRV21}	Umbral de rafaga (DL/UL)
+{NEWSRV22}	Tiempo de rafaga (DL/UL)
+{NEWSRV23}	Nombre del grupo de direcciones IP
+{NEWSRV24}	MB
+{NEWSRV25}	(0 - sin cuota de descarga)
+{NEWSRV26}	(0 - sin cuota de carga)
+{NEWSRV27}	(HH:MM:SS)
+{NEWSRV28}	(00:00:00 - sin cuota de tiempo)
+{NEWSRV29}	kbps
+{NEWSRV30}	(0 - sin limite)
+{NEWSRV31}	segundos
+{NEWSRV32}	Contabilidad
+{NEWSRV33}	Calculo de precio de pospago
+{NEWSRV34}	Descargar trafico
+{NEWSRV35}	Subir trafico
+{NEWSRV36}	Tiempo en linea
+{NEWSRV37}	Cuenta mensual
+{NEWSRV38}	Reiniciar contadores si la fecha ha expirado
+{NEWSRV39}	Habilitar creditos adicionales
+{NEWSRV40}	Tasa de IVA
+{NEWSRV41}	Precio unitario neto
+{NEWSRV42}	Precio unitario bruto
+{NEWSRV43}	Precio unitario adicional neto
+{NEWSRV44}	Precio bruto unitario adicional
+{NOTICIASRV45}	IVA
+{NEWSRV46}	Modo de adicion de fecha
+{NEWSRV47}	Restablecer fecha de caducidad
+{NEWSRV48}	Prolongar la fecha de caducidad
+{NEWSRV49}	Modo de adicion de trafico
+{NEWSRV50}	Restablecer contadores de trafico
+{NEWSRV51}	Anadir trafico
+{NEWSRV52}	Unidad de fecha de caducidad
+{NEWSRV53}	Descargar unidad de trafico
+{NEWSRV54}	Cantidad base minima
+{NEWSRV55}	x N unidad de tiempo
+{NEWSRV56}	x N unidad de trafico
+{NOTICIASRV57}	MB
+{NOTICIASRV58}	unidad(es)
+{NEWSRV59}	¡Los campos son obligatorios!
+{NEWSRV60}	Servicio de tienda
+{NOTICIASRV61}	Prioridad
+{NOTICIASRV62}	Lista de acceso RADIUS
+{NEWSRV63}	Limitar el trafico total
+{NEWSRV64}	Cuota total por dia
+{NEWSRV65}	(0 - sin cuota total)
+{NEWSRV66}	Subir unidad de trafico
+{NEWSRV67}	Unidad de trafico total
+{NEWSRV68}	Proximo servicio caducado
+{NEWSRV69}	Disponible en UCP
+{NEWSRV70}	Renovacion automatica
+{NEWSRV71}	Cantidad adicional minima
+{NOTICIASRV72}	Inicial
+{NEWSRV73}	Mapa de politicas de Cisco (DL)
+{NEWSRV74}	Mapa de politicas de Cisco (UL)
+{NEWSRV75}	(solo Cisco)
+{NEWSRV76}	Unidad de tiempo en linea
+{NEWSRV77}	Modo de adicion de tiempo
+{NEWSRV78}	Restablecer tiempo en linea
+{NEWSRV79}	Agregar tiempo en linea
+{NEWSRV80}	NAS permitidos
+{NOTICIASRV81}	todos
+{NOTICIASRV82}	ninguno
+{NEWSRV83}	Proximo servicio diario
+{NEWSRV84}	Disponible para gerentes
+{NEWSRV85}	Atributos RADIUS personalizados
+{NEWSRV86}	Prolongar la fecha de caducidad con correccion
+{NEWSRV87}	Generar archivo de arranque TFTP
+{NEWSRV88}	Configuracion avanzada de CM
+{NEWSRV90}	Transferir el trafico restante
+{NEWSRV91}	Unidad de trafico adicional
+{NEWSRV92}	Ignorar IP estatica
+{NOTICIASRV93}	Descripcion
+{NEWSRV94}	Siguiente servicio deshabilitado
+{NEWSRV95}	Reiniciar contadores si el trafico es negativo
+
+// Usuarios de RADIUS en linea ACP
+
+{ONLINEUSR0}	Usuarios de RADIUS en linea
+{ONLINEUSR1}	Nombre de usuario
+{ONLINEUSR2}	Hora de inicio
+{ONLINEUSR3}	Tiempo en linea
+{ONLINEUSR4}	Descargar
+{ONLINEUSR5}	Subir
+{ONLINEUSR6}	direccion IP
+{ONLINEUSR7}	ID de llamada
+{ONLINEUSR8}	NAS
+{ONLINEUSR9}	Accion
+{ONLINEUSR10}	Desconectar
+{ONLINEUSR11}	Trafico gratuito/tiempo incluido
+{ONLINEUSR12}	Cerrar sesion
+{ONLINEUSR13}	Filtro
+{ONLINEUSR14}	Nombre de usuario
+{ONLINEUSR15}	Grupo
+{ONLINEUSR16}	PA
+{ONLINEUSR17}	potencia de EE. UU. (dBm)
+{ONLINEUSR18}	SNR (dB)
+{ONLINEUSR19}	CCQ (%)
+{ONLINEUSR20}	Nombre
+{ONLINEUSR21}	Apellido
+{ONLINEUSR22}	Empresa
+{ONLINEUSR23}	Direccion
+{ONLINEUSR24}	Ciudad
+{ONLINEUSR25}	CoDIGO POSTAL
+{ONLINEUSR26}	Pais
+{ONLINEUSR27}	Estado
+{ONLINEUSR28}	Correo electronico
+{ONLINEUSR29}	Comentario
+{ONLINEUSR30}	Inhabilitado
+
+// ACP en linea CM
+
+{ONLINECM0}	modems de cable registrados
+{ONLINECM1}	Nombre de usuario
+{ONLINECM2}	CMTS
+{ONLINECM3}	Nombre de usuario
+{ONLINECM4}	Grupo
+{ONLINECM5}	corriente arriba
+{ONLINECM6}	Problema de senal
+{ONLINECM7}	CM MAC
+{ONLINECM8}	PI de CM
+{ONLINECM9}	IP de CPE
+{ONLINECM10}	CMTS
+{ONLINECM11}	Activo
+{ONLINECM12}	Expirado
+{ONLINECM13}	Deshabilitado
+{ONLINECM14}	Accion
+{ONLINECM15}	Reiniciar CM
+{ONLINECM16}	DS SNR (dB)
+{ONLINECM17}	Potencia EE. UU. (dBµV)
+{ONLINECM18}	DS potencia (dBÂµV)
+{ONLINECM19}	RTT (ms)
+{ONLINECM20}	corriente arriba
+{ONLINECM21}	Grupo
+{ONLINECM22}	SNR de EE. UU. (dB)
+{ONLINECM23}	Nombre
+{ONLINECM24}	Apellido
+{ONLINECM25}	Empresa
+{ONLINECM26}	Direccion
+{ONLINECM27}	Ciudad
+{ONLINECM28}	CoDIGO POSTAL
+{ONLINECM29}	Pais
+{ONLINECM30}	Estado
+{ONLINECM31}	Correo electronico
+{ONLINECM32}	Comentario
+{ONLINECM33}	Descendente
+
+// ACP revoca tarjeta
+
+{RVKCARD0}	Revocar tarjeta
+{RVKCARD1}	Numero de tarjeta
+{RVKCARD2}	¡Los campos son obligatorios!
+{RVKCARD3}	Revocar
+{RVKCARD4}	¿Esta seguro de revocar la tarjeta?
+
+// ACP encuentra datos de trafico
+
+{TRFFLTR0}	Buscar datos de trafico (sesiones RADIUS)
+{TRFFLTR1}	 Nombre de usuario
+{TRFFLTR2}	Direccion IP enmarcada
+{TRFFLTR3}	ID de la estacion de llamada
+{TRFFLTR4}	(nombre de usuario, MAC, numero de tarjeta)
+{TRFFLTR5}	(MAC, IP)
+{TRFFLTR6}	Generar informe
+{TRFFLTR7}	Solo en el intervalo seleccionado
+{TRFFLTR8}	¡No se permiten comodines!
+{TRFFLTR9}	Desde la fecha
+{TRFFLTR10}	Hasta la fecha
+{TRFFLTR11}	AAAA-MM-DD
+{TRFFLTR12}	NAS
+{TRFFLTR13}	PA
+
+// Resumen de trafico ACP
+
+{TRFSUMFLTR0}	Resumen de trafico (sesiones RADIUS)
+{TRFSUMFLTR1}	Desde
+{TRFSUMFLTR2}	Para
+{TRFSUMFLTR3}	Generar informe
+{TRFSUMFLTR4}	AAAA-MM-DD
+{TRFSUMFLTR5}	NAS
+{TRFSUMFLTR6}	punto de acceso
+
+// Resumen de trafico ACP
+
+{TRFSUM0}	Resumen de trafico (sesiones RADIUS)
+{TRFSUM1}	Nombre de usuario
+{TRFSUM2}	Descargar
+{TRFSUM3}	Subir
+{TRFSUM4}	Total
+{TRFSUM5}	tiempo en linea
+{TRFSUM6}	Desde
+{TRFSUM7}	a
+{TRFSUM8}	Exportar a CSV
+{TRFSUM9}	Nombre
+{TRFSUM10}	Apellido
+
+// informacion del sistema ACP
+
+{SYSINFO0}	Informacion del sistema
+{SYSINFO1}	Detalles de la licencia
+{SYSINFO2}	NIC con licencia
+{SYSINFO3}	La licencia caduca
+{SYSINFO4}	Actualizable hasta
+{SYSINFO5}	Numero maximo de cuentas RADIUS
+{SYSINFO6}	Numero maximo de NAS
+{SYSINFO7}	Sistema de tarjeta prepago y modulo IAS
+{SYSINFO8}	Modulo CTS
+{SYSINFO9}	modulo de Cisco
+{SYSINFO10}	Modulo DOCSIS
+{SYSINFO11}	Numero maximo de cuentas DOCSIS
+{SYSINFO12}	Numero maximo de CMTS
+{SYSINFO13}	Nombre de registro
+
+// Estadisticas del sistema ACP
+
+{SYSSTATS0}	Estadisticas del sistema
+{SYSSTATS1}	Estadisticas generales
+{SYSSTATS2}	Cuentas totales
+{SYSSTATS3}	cuentas RADIUS
+{SYSSTATS4}	cuentas DOCSIS
+{SYSSTATS5}	Cuentas regulares
+{SYSSTATS6}	cuentas MAC
+{SYSSTATS7}	Cuentas ACL de Mikrotik
+{SYSSTATS8}	cuentas ACL de StarOS
+{SYSSTATS9}	Cuentas de tarjeta
+{SYSSTATS10}	cuentas IAS
+{SYSSTATS11}	estadisticas RADIUS
+
+// error del sistema ACP + UCP
+
+{SYSERR0}	Error del sistema
+
+// Mensaje del sistema ACP + UCP
+
+{SYSMSG0}	Mensaje del sistema
+
+// UCP ingrese numero de tarjeta
+
+{ENTCRDNUM0}	Canjear cupon
+{ENTCRDNUM1}	Numero de tarjeta
+{ENTCRDNUM2}	¡Los campos son obligatorios!
+{ENTCRDNUM3}	Enviar
+
+// UCP cambio de contrasena
+
+{CHGPSW0}	Cambiar contrasena
+{CHGPSW1}	Contrasena antigua
+{CHGPSW2}	Nueva contrasena
+{CHGPSW3}	Confirmar nueva contrasena
+{CHGPSW4}	(4-32 caracteres)
+{CHGPSW5}	¡Los campos son obligatorios!
+{CHGPSW6}	Enviar
+
+// ACP editar plan de servicio
+
+{EDITSRV0}	Editar plan de servicio
+{EDITSRV1}	General
+{EDITSRV2}	Nombre del plan
+{EDITSRV3}	Habilitar
+{EDITSRV4}	Tipo de plan
+{EDITSRV5}	Regular de prepago
+{EDITSRV6}	Tarjeta prepago o IAS
+{EDITSRV7}	pospago
+{EDITSRV8}	Correo electronico
+{EDITSRV9}	Limitar descarga
+{EDITSRV10}	Limitar carga
+{EDITSRV11}	Modo limite de tiempo
+{EDITSRV12}	Caducidad del limite
+{EDITSRV13}	Limite el tiempo en linea
+{EDITSRV14}	Sin limites de tiempo
+{EDITSRV15}	Cuota de descarga por dia
+{EDITSRV16}	Cuota de carga por dia
+{EDITSRV17}	Cuota de tiempo por dia
+{EDITSRV18}	Velocidad de datos (DL/UL)
+{EDITSRV19}	Habilitar modo rafaga
+{EDITSRV20}	Limite de rafaga (DL/UL)
+{EDITSRV21}	Umbral de rafaga (DL/UL)
+{EDITSRV22}	Tiempo de rafaga (DL/UL)
+{EDITSRV23}	Nombre del grupo de direcciones IP
+{EDITSRV24}	MB
+{EDITSRV25}	(0 - sin cuota de descarga)
+{EDITSRV26}	(0 - sin cuota de carga)
+{EDITSRV27}	(HH:MM:SS)
+{EDITSRV28}	(00:00:00 - sin cuota de tiempo)
+{EDITSRV29}	kbps
+{EDITSRV30}	(0 - sin limite)
+{EDITSRV31}	segundos
+{EDITSRV32}	Contabilidad
+{EDITSRV33}	Calculo de precio pospago
+{EDITSRV34}	Descargar trafico
+{EDITSRV35}	Subir trafico
+{EDITSRV36}	Tiempo en linea
+{EDITSRV37}	Cuenta mensual
+{EDITSRV38}	Reiniciar contadores si la fecha ha expirado
+{EDITSRV39}	Habilitar creditos adicionales
+{EDITSRV40}	tipo de IVA
+{EDITSRV41}	Precio unitario neto
+{EDITSRV42}	Precio unitario bruto
+{EDITSRV43}	Precio unitario adicional neto
+{EDITSRV44}	Precio bruto unitario adicional
+{EDITSRV45}	IVA
+{EDITSRV46}	Modo de adicion de fecha
+{EDITSRV47}	Restablecer fecha de caducidad
+{EDITSRV48}	Prolongar la fecha de caducidad
+{EDITSRV49}	Modo de adicion de trafico
+{EDITSRV50}	Restablecer contadores de trafico
+{EDITSRV51}	Anadir trafico
+{EDITSRV52}	Unidad de fecha de caducidad
+{EDITSRV53}	Descargar unidad de trafico
+{EDITSRV54}	Cantidad base minima
+{EDITSRV55}	x N unidad de tiempo
+{EDITSRV56}	x N unidad de trafico
+{EDITSRV57}	MB
+{EDITSRV58}	unidad(es)
+{EDITSRV59}	¡Los campos son obligatorios!
+{EDITSRV60}	Actualizar plan
+{EDITSRV61}	borrar
+{EDITSRV62}	Prioridad
+{EDITSRV63}	lista de acceso RADIUS
+{EDITSRV64}	Limitar el trafico total
+{EDITSRV65}	Cuota total por dia
+{EDITSRV66}	(0 - sin cuota total)
+{EDITSRV67}	Subir unidad de trafico
+{EDITSRV68}	Unidad de trafico total
+{EDITSRV69}	Proximo servicio caducado
+{EDITSRV70}	Disponible en UCP
+{EDITSRV71}	Renovacion automatica
+{EDITSRV72}	Cantidad minima adicional
+{EDITSRV73}	Inicial
+{EDITSRV74}	Mapa de politicas de Cisco (DL)
+{EDITSRV75}	Mapa de politicas de Cisco (UL)
+{EDITSRV76}	(solo Cisco)
+{EDITSRV77}	Unidad de tiempo en linea
+{EDITSRV78}	Modo de adicion de tiempo
+{EDITSRV79}	Restablecer tiempo en linea
+{EDITSRV80}	Agregar tiempo en linea
+{EDITSRV81}	Contabilidad especial
+{EDITSRV82}	editar
+{EDITSRV83}	NAS permitidos
+{EDITSRV84}	Todos
+{EDITSRV85}	ninguno
+{EDITSRV86}	Proximo servicio diario
+{EDITSRV87}	Velocidad de datos dinamica
+{EDITSRV88}	Disponible
+ para administradores
+{EDITSRV89}	Atributos RADIUS personalizados
+{EDITSRV90}	Prolongar fecha de caducidad con correccion
+{EDITSRV91}	Generar archivo de arranque TFTP
+{EDITSRV92}	Configuracion avanzada de CM
+{EDITSRV93}	Transferir el trafico restante
+{EDITSRV94}	Unidad de trafico adicional
+{EDITSRV95}	Ignorar IP estatica
+{EDITSRV96}	Descripcion
+{EDITSRV97}	Siguiente servicio deshabilitado
+{EDITSRV98}	Reiniciar contadores si el trafico es negativo
+
+// nuevo periodo contable especial
+
+{NEWSPCPERACNT0}	Nuevo intervalo
+{NEWSPCPERACNT1}	Hora de inicio
+{NEWSPCPERACNT2}	Hora de finalizacion
+{NEWSPCPERACNT3}	Proporcion de tiempo
+{NEWSPCPERACNT4}	Proporcion de descargas
+{NEWSPCPERACNT5}	Proporcion de carga
+{NEWSPCPERACNT6}	Conexion permitida
+{NOTICIASPCPERACNT7}	si
+{NEWSPCPERACNT8}	no
+{NEWSPCPERACNT9}	Agregar intervalo
+{NEWSPCPERACNT10}	volver a la lista
+{NOTICIASPCPERACNT11}	Lunes
+{NOTICIASPCPERACNT12}	Martes
+{NOTICIASPCPERACNT13}	miercoles
+{NOTICIASPCPERACNT14}	Jueves
+{NOTICIASPCPERACNT15}	viernes
+{NOTICIASPCPERACNT16}	Sabado
+{NOTICIASPCPERACNT17}	Domingo
+
+// editar periodo contable especial
+
+{EDITSPCPERACNT0}	Editar intervalo
+{EDITSPPERACNT1}	Hora de inicio
+{EDITSPPERACNT2}	Hora de finalizacion
+{EDITSPCPERACNT3}	Proporcion de tiempo
+{EDITSPPERACNT4}	Tasa de descarga
+{EDITSPCPERACNT5}	Proporcion de carga
+{EDITSPCPERACNT6}	Conexion permitida
+{EDITSPPERACNT7}	si
+{EDITSPPERACNT8}	no
+{EDITSPPERACNT9}	Actualizacion
+{EDITSPPERACNT10}	volver a la lista
+{EDITSPPERACNT11}	eliminar
+{EDITSPPERACNT12}	lunes
+{EDITSPPERACNT13}	martes
+{EDITSPPERACNT14}	miercoles
+{EDITSPPERACNT15}	jueves
+{EDITSPPERACNT16}	viernes
+{EDITSPPERACNT17}	Sabado
+{EDITSPPERACNT18}	domingo
+
+// enumerar periodos contables especiales
+
+{LSTSPECPERACNT0}	Contabilidad especial
+{LSTSPECPERACNT1}	nuevo intervalo
+{LSTSPECPERACNT2}	Accion
+{LSTSPECPERACNT3}	Eliminar seleccionado
+{LSTSPECPERACNT4}	Hora de inicio
+{LSTSPECPERACNT5}	Hora de finalizacion
+{LSTSPECPERACNT6}	Relacion de tiempo
+{LSTSPECPERACNT7}	Tasa de descarga
+{LSTSPECPERACNT8}	Proporcion de carga
+{LSTSPECPERACNT9}	Conexion permitida
+{LSTSPECPERACNT10}	Editar
+{LSTSPECPERACNT11}	Lunes
+{LSTSPECPERACNT12}	Martes
+{LSTSPECPERACNT13}	Miercoles
+{LSTSPECPERACNT14}	Jueves
+{LSTSPECPERACNT15}	Viernes
+{LSTSPECPERACNT16}	Sabado
+{LSTSPECPERACNT17}	Domingo
+
+//enumera velocidades de datos dinamicas
+
+{LSTSPECPERBW0}	Editor de velocidad de datos dinamica
+{LSTSPECPERBW1}	nuevo intervalo
+{LSTSPECPERBW2}	Accion
+{LSTSPECPERBW3}	Eliminar seleccionado
+{LSTSPECPERBW4}	Editar
+{LSTSPECPERBW5}	lunes
+{LSTSPECPERBW6}	martes
+{LSTSPECPERBW7}	miercoles
+{LSTSPECPERBW8}	jue
+{LSTSPECPERBW9}	Vie
+{LSTSPECPERBW10}	sabado
+{LSTSPECPERBW11}	Sol
+{LSTSPECPERBW12}	Hora de inicio
+{LSTSPECPERBW13}	Hora de finalizacion
+{LSTSPECPERBW14}	Velocidad de datos<br>DL/UL<br>(kbps)
+{LSTSPECPERBW15}	Limite de rafaga<br>DL/UL<br>(kbps)
+{LSTSPECPERBW16}	Umbral de rafaga<br>DL/UL<br>(kbps)
+{LSTSPECPERBW17}	Tiempo de rafaga<br>DL/UL<br>(segundos)
+{LSTSPECPERBW18}	Prioridad
+
+// editar tasa de datos dinamicos
+
+{EDITSPCPERBW0}	Editar intervalo
+{EDITSPCPERBW1}	lunes
+{EDITSPCPERBW2}	martes
+{EDITSPCPERBW3}	miercoles
+{EDITSPCPERBW4}	jueves
+{EDITSPCPERBW5}	viernes
+{EDITSPCPERBW6}	Sabado
+{EDITSPCPERBW7}	domingo
+{EDITSPCPERBW8}	Hora de inicio
+{EDITSPCPERBW9}	Hora de finalizacion
+{EDITSPCPERBW10}	Velocidad de datos (DL/UL)
+{EDITSPCPERBW11}	Habilitar modo rafaga
+{EDITSPCPERBW12}	Limite de rafagas (DL/UL)
+{EDITSPCPERBW13}	Umbral de rafagas (DL/UL)
+{EDITSPCPERBW14}	Tiempo de rafaga (DL/UL)
+{EDITSPCPERBW15}	Prioridad
+{EDITSPCPERBW16}	kbps
+{EDITSPCPERBW17}	Actualizacion
+{EDITSPCPERBW18}	volver a la lista
+{EDITSPCPERBW19}	eliminar
+
+// nuevo periodo de tasa de datos dinamicos
+
+{NEWSPCPERBW0}	Nuevo intervalo
+{NEWSPCPERBW1}	lunes
+{NEWSPCPERBW2}	martes
+{NEWSPCPERBW3}	miercoles
+{NEWSPCPERBW4}	Jueves
+{NEWSPCPERBW5}	viernes
+{NEWSPCPERBW6}	Sabado
+{NEWSPCPERBW7}	Domingo
+{NEWSPCPERBW8}	Hora de inicio
+{NEWSPCPERBW9}	Hora de finalizacion
+{NEWSPCPERBW10}	Velocidad de datos (DL/UL)
+{NEWSPCPERBW11}	Habilitar modo rafaga
+{NEWSPCPERBW12}	Limite de rafaga (DL/UL)
+{NEWSPCPERBW13}	Umbral de rafaga (DL/UL)
+{NEWSPCPERBW14}	Tiempo de rafaga (DL/UL)
+{NEWSPCPERBW15}	Prioridad
+{NOTICIASPCPERBW16}	kbps
+{NOTICIASPCPERBW17}	segundos
+{NEWSPCPERBW18}	Agregar intervalo
+{NEWSPCPERBW19}	volver a la lista
+
+// Administrador de edicion de ACP
+
+{EDITMGR0}	Administrador de edicion
+{EDITMGR1}	Nombre del administrador
+{EDITMGR2}	Habilitar
+{EDITMGR3}	Contrasena
+{EDITMGR4}	Confirmar contrasena
+{EDITMGR5}	Nombre
+{EDITMGR6}	Numero de telefono
+{EDITMGR7}	Numero de celular
+{EDITMGR8}	Direccion
+{EDITMGR9}	Ciudad
+{EDITMGR10}	Ci“DIGO POSTAL
+{EDITMGR11}	Comentario
+{EDITMGR12}	(4-32 caracteres)
+{EDITMGR13}	Permisos
+{EDITMGR14}	Lista de usuarios
+{EDITMGR15}	Registrar usuarios
+{EDITMGR16}	Editar usuarios
+{EDITMGR17}	Eliminar usuarios
+{EDITMGR18}	Acceder a facturas
+{EDITMGR19}	Accede a todas las facturas
+{EDITMGR20}	Editar facturas
+{EDITMGR21}	Correo electronico
+{EDITMGR22}	Permitir saldo negativo
+{EDITMGR23}	Administradores de listas
+{EDITMGR24}	Administradores de registros
+{EDITMGR25}	Administradores de edicion
+{EDITMGR26}	Eliminar administradores
+{EDITMGR27}	Lista de usuarios en linea
+{EDITMGR28}	Desconectar usuarios
+{EDITMGR29}	Funciones de facturacion
+{EDITMGR30}	Informe de trafico general
+{EDITMGR31}	Sistema de tarjeta e IAS
+{EDITMGR32}	Lista de planes de servicio
+{EDITMGR33}	Registrar planes de servicio
+{EDITMGR34}	Editar planes de servicio
+{EDITMGR35}	Eliminar planes de servicio
+{EDITMGR36}	Marcar todo
+{EDITMGR37}	Borrar todo
+{EDITMGR38}	¡Los campos son obligatorios!
+{EDITMGR39}	Administrador de actualizaciones
+{EDITMGR40}	Generalidades
+{EDITMGR41}	Saldo
+{EDITMGR42}	Importe
+{EDITMGR43}	Enviar
+{EDITMGR44}	lista de facturas
+{EDITMGR45}	eliminar
+{EDITMGR46}	¿Esta seguro de agregar creditos?
+{EDITMGR47}	Apellido (familia)
+{EDITMGR48}	Acceder a todos los usuarios
+{EDITMGR49}	
+{EDITMGR50}	Cambiar contrasena
+{EDITMGR51}	
+{EDITMGR52}	Descripcion
+{EDITMGR53}	Tipo de pago
+{EDITMGR54}	Efectivo
+{EDITMGR55}	Transferencia bancaria
+{EDITMGR56}	Nombre de la empresa
+{EDITMGR57}	ID de IVA
+{EDITMGR58}	Pais
+{EDITMGR59}	Estado
+{EDITMGR60}	Permitir precios con descuento
+{EDITMGR61}	Editar datos de usuarios privilegiados
+{EDITMGR62}	Habilitar cancelacion de facturas
+{EDITMGR63}	Mantener puntos de acceso
+{EDITMGR64}	Informe de conexion
+{EDITMGR65}	Resumen contable
+{EDITMGR66}	Idioma
+{EDITMGR67}	Enviar correo electronico
+{EDITMGR68}	Enviar SMS
+
+// ACP encuentra datos CTS
+
+{CTSFLTR0}	Buscar datos de conexion
+{CTSFLTR1}	Nombre de usuario
+{CTSFLTR2}	IP de origen
+{CTSFLTR3}	puerto
+{CTSFLTR4}	IP de destino
+{CTSFLTR5}	Protocolo 
+{CTSFLTR6}	Desde el momento
+{CTSFLTR7}	Desde la fecha
+{CTSFLTR8}	Hasta la fecha
+{CTSFLTR9}	Generar informe
+{CTSFLTR10}	Cualquiera
+{CTSFLTR11}	TCP
+{CTSFLTR12}	UDP
+{CTSFLTR13}	(nombre de usuario, MAC, numero de tarjeta)
+{CTSFLTR14}	Hasta el momento
+{CTSFLTR15}	AAAA-MM-DD
+
+// Informe CTS de ACP
+
+{CTSREP0}	Informe de conexion
+{CTSREP1}	Fecha y hora
+{CTSREP2}	Nombre de usuario
+{CTSREP3}	IP de origen
+{CTSREP4}	Puerto de origen
+{CTSREP5}	IP de destino
+{CTSREP6}	Puerto de destino
+{CTSREP7}	Protocolo
+
+// Informe CTS detallado ACP
+
+{DETCTSREP0}	Informe de conexion
+{DETCTSREP1}	Fecha y hora
+{DETCTSREP2}	Nombre de usuario
+{DETCTSREP3}	IP de origen
+{DETCTSREP4}	Puerto de origen
+{DETCTSREP5}	IP de destino
+{DETCTSREP6}	Puerto de destino
+{DETCTSREP7}	Protocolo
+
+// ACP encuentra datos posteriores a la autenticacion
+
+{FNDPSAUTH0}	Buscar datos de autenticacion
+{FNDPSAUTH1}	Nombre de usuario
+{FNDPSAUTH2}	NAS
+{FNDPSAUTH3}	De
+{FNDPSAUTH4}	Para
+{FNDPSAUTH5}	AAAA-MM-DD
+{FNDPSAUTH6}	Generar informe
+
+// Informe posterior a la autenticacion de ACP
+
+{AUTHLOG0}	Registro de autenticacion
+{AUTHLOG1}	Fecha y hora
+{AUTHLOG2}	Nombre de usuario
+{AUTHLOG3}	RADIUS responde
+{AUTHLOG4}	NAS
+
+// ACP nueva plantilla IAS
+
+{NEWIAS0}	Nueva plantilla IAS
+{NEWIAS1}	Nombre de la plantilla IAS
+{NEWIAS2}	Habilitar IAS
+{NEWIAS3}	Precio
+{NEWIAS4}	Plan de servicio
+{NEWIAS5}	Caducidad
+{NEWIAS6}	Limite de descarga
+{NEWIAS7}	Limite de carga
+{NEWIAS8}	Limite total
+{NEWIAS9}	Limite de tiempo en linea
+{NEWIAS10}	Caducidad
+{NEWIAS11}	Tiempo disponible desde la activacion de la cuenta
+{NEWIAS12}	AAAA-MM-DD
+{NEWIAS13}	MB
+{NEWIAS14}	Horas
+{NEWIAS15}	Definido por fecha de vencimiento
+{NEWIAS16}	Calculado a partir de la activacion de la cuenta
+{NEWIAS17}	Los campos son obligatorios
+{NEWIAS18}	Tienda
+{NEWIAS19}	Uso simultaneo
+
+// ACP editar plantilla IAS
+
+{EDITIAS0}	Editar plantilla IAS
+{EDITIAS1}	Nombre de la plantilla IAS
+{EDITIAS2}	Habilitar IAS
+{EDITIAS3}	Precio
+{EDITIAS4}	Plan de servicio
+{EDITIAS5}	Fecha de caducidad
+{EDITIAS6}	Limite de descarga
+{EDITIAS7}	Limite de subida
+{EDITIAS8}	Limite total
+{EDITIAS9}	Limite de tiempo en linea
+{EDITIAS10}	Caducidad
+{EDITIAS11}	Tiempo disponible desde la activacion de la cuenta
+{EDITIAS12}	AAAA-MM-DD
+{EDICIONES13}	MB
+{EDICIA14}	Horas
+{EDITIAS15}	Definido por fecha de caducidad
+{EDITIAS16}	Calculado a partir de la activacion de la cuenta
+{EDITIAS17}	Los campos son obligatorios
+{EDITIAS18}	Actualizacion
+{EDITIAS19}	Eliminar plantilla IAS
+{EDITIAS20}	Uso simultaneo
+
+// lista ACP IAS
+
+{LSTIAS0}	Plantillas de servicio de acceso instantaneo
+{LSTIAS1}	nombre de NIC
+{LSTIAS2}	Precio
+{LSTIAS3}	Plan de servicio
+{LSTIAS4}	Limite de descarga<br>(MB)
+{LSTIAS5}	Limite de carga<br>(MB)
+{LSTIAS6}	Limite total<br>(MB)
+{LSTIAS7}	Limite de tiempo en linea
+{LSTIAS8}	Tiempo disponible
+{LSTIAS9}	Accion
+{LSTIAS10}	Activo
+{LSTIAS11}	Deshabilitado
+{LSTIAS12}	Habilitar NIC
+{LSTIAS13}	Deshabilitar NIC
+{LSTIAS14}	Eliminar NIC
+{LSTIAS15}	Caducidad
+
+//
+ inicio de sesion UCP
+
+{UCPLOGIN0}	Panel de Control de Usuario
+{UCPLOGIN1}	Nombre de usuario
+{UCPLOGIN2}	Contrasena
+{UCPLOGIN3}	Iniciar sesion
+{UCPLOGIN4}	Inicio de sesion seguro
+{UCPLOGIN5}	Radius Manager - Panel de control de usuario
+{UCPLOGIN6}	Idioma
+{UCPLOGIN7}	Olvide mi contrasena
+{UCPLOGIN8}	Este sitio web utiliza cookies que son obligatorias para el correcto funcionamiento del sistema. Las cookies se utilizan para almacenar el idioma predeterminado del usuario, etc. Las cookies <b>no recopilan ninguna informacion estadistica o analitica</b> y se pueden examinar, eliminar o bloquear en el navegador web. Si no esta de acuerdo, no utilice este sitio web.
+
+// cierre de sesion de UCP
+
+{UCPLOGOUT0}	Panel de Control de Usuario
+{UCPLOGOUT1}	Redirigiendo a la pagina de inicio de sesion...
+{UCPLOGOUT2}	inicio de sesion
+{UCPLOGOUT3}	Radius Manager - Panel de control de usuario
+
+// plantilla principal UCP
+
+{UCPMAIN0}	Inicio
+{UCPMAIN1}	
+{UCPMAIN2}	
+{UCPMAIN3}	
+{UCPMAIN4}	
+{UCPMAIN5}	
+{UCPMAIN6}	
+{UCPMAIN7}	
+{UCPMAIN8}	
+{UCPMAIN9}	Usuario
+{UCPMAIN10}	Fecha
+{UCPMAIN11}	Version
+{UCPMAIN12}	
+{UCPMAIN13}	Radius Manager - Panel de control de usuario
+
+// detalles del usuario UCP
+
+{USRDET0}	Mi cuenta
+{USRDET1}	Informacion general
+{USRDET2}	Nombre de usuario
+{USRDET3}	Tipo de cuenta
+{USRDET4}	Estado de la cuenta
+{USRDET5}	direccion IP estatica
+{USRDET6}	Direccion MAC permitida
+{USRDET7}	autenticacion MAC
+{USRDET8}	Deposito
+{USRDET9}	Detalles de la cuenta
+{USRDET10}	Empresa
+{USRDET11}	Telefono
+{USRDET12}	Numero de celular
+{USRDET13}	Direccion
+{USRDET14}	Ciudad
+{USRDET15}	codigo postal
+{USRDET16}	ID de IVA
+{USRDET17}	Detalles del plan de servicio
+{USRDET18}	Nombre del plan de servicio
+{USRDET19}	Tipo de plan de servicio
+{USRDET20}	Tasa de datos de descarga
+{USRDET21}	Tasa de datos de carga
+{USRDET22}	Fecha de cambio programada
+{USRDET23}	Nombre del plan programado
+{USRDET24}	Limites y cuotas
+{USRDET25}	Descarga disponible
+{USRDET26}	Carga disponible
+{USRDET27}	Caducidad de la cuenta
+{USRDET28}	Tiempo disponible en linea
+{USRDET29}	Descarga disponible hoy
+{USRDET30}	Carga disponible hoy
+{USRDET31}	Tiempo disponible hoy
+{USRDET32}	Trafico total disponible
+{USRDET33}	Trafico total disponible hoy
+{USRDET34}	Nombre
+{USRDET35}	Apellido
+{USRDET36}	Pais
+{USRDET37}	Estado
+{USRDET38}	Correo electronico
+{USRDET39}	Detalles de Wi-Fi
+{USRDET40}	Punto de acceso
+{USRDET41}	Nivel de senal
+{USRDET42}	SNR
+{USRDET43}	CCQ
+{USRDET44}	Idioma
+{USRDET45}	IP actual
+{USRDET46}	Graficos de trafico
+{USRDET47}	Recargar cuenta
+{USRDET48}	Deposito de compra
+{USRDET49}	Canjear cupon
+
+// UCP confirma pago interno
+
+{CFMINTPM0}	Confirmar pago interno
+{CFMINTPM1}	La siguiente cantidad se deducira de su saldo
+{CFMINTPM2}	Precio total
+{CFMINTPM3}	Terminar
+
+// Pagos del sitio web de Paypal Pro
+
+{PPCC0}	pago con tarjeta de credito de PayPal
+{PPCC1}	Titular de la tarjeta
+{PPCC2}	Nombre
+{PPCC3}	Apellido
+{PPCC4}	Tipo de tarjeta
+{PPCC5}	Numero de tarjeta
+{PPCC6}	Fecha de caducidad
+{PPCC7}	Numero de verificacion de la tarjeta
+{PPCC8}	Direccion de facturacion
+{PPCC9}	Direccion 1
+{PPCC10}	Direccion 2
+{PPCC11}	Ciudad
+{PPCC12}	Estado
+{PPCC13}	codigo postal
+{PPCC14}	Pais
+{PPCC15}	Precio total
+{PPCC16}	opcional
+{PPCC17}	5 o 9 digitos
+{PPCC18}	Enviar
+{PPCC19}	Numero de emision
+{PPCC20}	(solo para Switch/Maestro, Solo)
+
+// Error de la API de Paypal
+
+{PPAPIERRO0}	error de PayPal
+{PPAPIERR1}	La pasarela de pago ha informado de un problema
+{PPAPIERR2}	Numero de error
+{PPAPIERR3}	Mensaje corto
+{PPAPIERR4} Mensaje largo
+
+// Detalles de pago de Paypal
+
+{PPEXPCD0}	detalles de pago de PayPal
+{PPEXPCD1}	Estas a punto de pagar la siguiente cantidad
+{PPEXPCD2}	Precio total
+{PPEXPCD3}	Direccion de envio
+{PPEXPCD4}	Nombre completo
+{PPEXPCD5}	Calle 1
+{PPEXPCD6}	Calle 2
+{PPEXPCD7}	Ciudad
+{PPEXPCD8}	Estado
+{PPEXPCD9}	codigo postal
+{PPEXPCD10}	Pais
+{PPEXPCD11}	Enviar
+
+// Redireccion estandar de pagos del sitio web de UCP Paypal
+
+{PPSTDRED0}	Redireccion...
+{PPSTDRED1}	Haga clic en el boton a continuacion si no es redirigido a PayPal en 5 segundos
+
+// UCP editar usuario
+
+{UCPEDITUSR0}	Editar cuenta
+{UCPEDITUSR1}	Nombre
+{UCPEDITUSR2}	Apellido (familia)
+{UCPEDITUSR3}	Direccion
+{UCPEDITUSR4}	Ciudad
+{UCPEDITUSR5}	C.P.
+{UCPEDITUSR6}	Pais
+{UCPEDITUSR7}	Estado
+{UCPEDITUSR8}	Telefono
+{UCPEDITUSR9}	Movil
+{UCPEDITUSR10}	Correo electronico
+{UCPEDITUSR11}	Empresa
+{UCPEDITUSR12}	ID de IVA
+{UCPEDITUSR13}	¡Los campos son obligatorios!
+{UCPEDITUSR14}	Enviar
+{UCPEDITUSR15}	Alerta por correo electronico
+{UCPEDITUSR16}	SMS de alerta
+{UCPEDITUSR17}	Idioma
+
+// REG Nuevo usuario principal
+
+{NUSRMAIN0}	Fecha
+{NUSRMAIN1}	Version
+{NUSRMAIN2}	Radius Manager - Registro de cuenta nueva
+
+// REG Formulario de registro de nuevo usuario (modo de nombre de usuario)
+
+{NUSRREGNM0}	Registrar cuenta por nombre de usuario
+{NUSRREGNM1}	Nombre de usuario
+{NUSRREGNM2}	Idioma
+{NUSRREGNM3}	ID de IVA
+{NUSRREGNM4}	Nombre
+{NUSRREGNM5}	Apellido (familia)
+{NUSRREGNM6}	Direccion
+{NUSRREGNM7}	Ciudad
+{NUSRREGNM8}	C.P.
+{NUSRREGNM9}	Pais
+{NUSRREGNM10}	Estado o provincia
+{NUSRREGNM11}	Numero de telefono
+{NUSRREGNM12}	Numero de celular
+{NUSRREGNM13}	Direccion de correo electronico
+{NUSRREGNM14}	Servicio prepago inicial
+{NUSRREGNM15}	(4-32 caracteres)
+{NUSRREGNM16}	(4-32 caracteres)
+{NUSRREGNM17}	Registrar cuenta
+{NUSRREGNM18}	¡Los campos son obligatorios!
+{NUSRREGNM19}	Acepto los Terminos y Condiciones
+{NUSRREGNM20}	Formulario internacional, por ejemplo, 496548156875
+{NUSRREGNM21}	Formulario internacional, por ejemplo, 496548156875
+{NUSRREGNM22}	Codigo de seguridad
+
+// REG Formulario de registro de nuevo usuario (modo numero de celular)
+
+{NUSRREGMB0}	Registrar cuenta por numero de celular
+{NUSRREGMB1}	Numero de celular
+{NUSRREGMB2}	Nombre
+{NUSRREGMB3}	Apellido (familia)
+{NUSRREGMB4}	Direccion
+{NUSRREGMB5}	Ciudad
+{NUSRREGMB6}	codigo postal
+{NUSRREGMB7}	Pais
+{NUSRREGMB8}	Estado o provincia
+{NUSRREGMB9}	Numero de telefono
+{NUSRREGMB10}	Direccion de correo electronico
+{NUSRREGMB11}	ID de IVA
+{NUSRREGMB12}	Servicio prepago inicial
+{NUSRREGMB13}	¡Los campos son obligatorios!
+{NUSRREGMB14}	Acepto los Terminos y Condiciones
+{NUSRREGMB15}	Registrar cuenta
+{NUSRREGMB16}	Idioma
+{NUSRREGMB17}	Formulario internacional, por ejemplo, 496548156875
+{NUSRREGMB18}	Codigo de seguridad
+
+// REG Nuevo usuario creado
+
+{USRCRTD0}	Cuenta registrada
+{USRCRTD1}	Su cuenta ha sido activada
+{USRCRTD2}	Su nombre de usuario
+{USRCRTD3}	Su contrasena
+{USRCRTD4}	Inicio de sesion de punto de acceso
+{USRCRTD5}	Haga clic aqui para ingresar al Panel de Control de Usuario
+
+// REG Nuevo usuario creado
+
+{BUYIAS0}	Radius Manager: compra del servicio de acceso instantaneo
+{BUYIAS1}	¿Necesita acceso instantaneo sin registrarse?
+{BUYIAS2}	Idioma
+
+// lista de NIC
+
+{IASLIST0}	Plan de servicio
+{IASLIST1}	Precio
+
+// IAS selecciona el modo de pago
+
+{IASSPM0}	Seleccionar metodo de pago
+{IASSPM1}	Esta a punto de comprar el siguiente servicio de acceso instantaneo
+{IASSPM2}	Plan de servicio
+{IASSPM3}	Precio total
+{IASSPM4}	Metodos de pago disponibles
+{IASSPM5}	Tarjeta de credito
+{IASSPM6}	PayPal
+{IASSPM7}	Siguiente >
+{IASSPM8}	Direccion de correo electronico
+{IASSPM9}	Numero de celular
+{IASSPM10}	Formulario internacional, por ejemplo, 496548156875
+{IASSPM11}	¡Los campos son obligatorios!
+
+// Detalles de pago de IAS
+
+{IASEXPCD0}	detalles de pago de PayPal
+{IASEXPCD1}	Esta a punto de pagar la siguiente cantidad
+{IASEXPCD2}	Precio total
+{IASEXPCD3}	Direccion de envio
+{IASEXPCD4}	Nombre completo
+{IASEXPCD5}	Calle 1
+{IASEXPCD6}	Calle 2
+{IASEXPCD7}	Ciudad
+{IASEXPCD8}	Estado
+{IASEXPCD9}	C.P.
+{IASEXPCD10}	Pais
+{IASEXPCD11}	Enviar
+
+// NIC compra principal
+
+{PIASMAIN0}	Radius Manager: compra del servicio de acceso instantaneo
+{PIASMAIN1}	Fecha
+{PIASMAIN2}	Version
+
+// registro del sistema de la lista ACP
+
+{SYSLOG0}	Registro del sistema
+{SYSLOG1}	Fecha y hora
+{SYSLOG2}	Nombre
+{SYSLOG3}	direccion IP
+{SYSLOG4}	Descripcion del evento
+{SYSLOG5}	Datos adicionales
+
+// Formulario de correo electronico ACP
+
+{EMAIL0}	Enviar correo electronico
+{EMAIL1}	Destinatario
+{EMAIL2}	Asunto
+{EMAIL3}	Mensaje
+{EMAIL4}	Enviar mensaje
+
+// Correo electronico masivo ACP
+
+{BULKMAIL0}	correo electronico masivo
+{BULKMAIL1}	Grupo
+{BULKMAIL2}	Asunto
+{BULKMAIL3}	Mensaje
+{BULKMAIL4}	Etiquetas disponibles: {FIRSTNAME}, {LASTNAME}
+{BULKMAIL5}	Enviar mensaje
+
+// Formulario SMS ACP
+
+{SMS0}	Enviar SMS
+{SMS1}	Destinatario
+{SMS2}	Mensaje
+{SMS3}	Enviar mensaje
+
+// SMS masivos ACP
+
+{BULKSMS0}	SMS masivos
+{BULKSMS1}	Grupo
+{BULKSMS2}	Mensaje
+{BULKSMS3}	Etiquetas disponibles: {FIRSTNAME}, {LASTNAME}, {USERNAME}
+{BULKSMS4}	Enviar mensaje
+
+// UCP, IAS confirman pago Netcash
+
+{PAYNETCASH0}	Compra de Netcash
+{PAYNETCASH1}	Revisar pedido
+{PAYNETCASH2}	Nombre del elemento
+{PAYNETCASH3}	Monto
+{PAYNETCASH4}	Precio total
+{PAYNETCASH5}	Siguiente >
+
+// UCP, IAS confirman pago Payfast
+
+{PAYPAYFAST0}	Compra de pago rapido
+{PAYPAYFAST1}	Descripcion general del pedido
+{PAYPAYFAST2}	Nombre del elemento
+{PAYPAYFAST3}	Monto
+{PAYPAYFAST4}	Precio total
+{PAYPAYFAST5}	Siguiente >
+
+// UCP, IAS confirman pago PayU
+
+{PAYPAYU0}	Compra PayU
+{PAYPAYU1}	Descripcion general del pedido
+{PAYPAYU2}	Nombre del elemento
+{PAYPAYU3}	Cantidad
+{PAYPAYU4}	Precio total
+{PAYPAYU5}	Nombre
+{PAYPAYU6}	Direccion de correo electronico
+{PAYPAYU7}	Numero de celular
+{PAYPAYU8}	¡Los campos son obligatorios!
+{PAYPAYU9}	Siguiente >
+
+// UCP, IAS confirman pago MPESA
+
+{PAYMPESA0}	compra MPESA
+{PAYMPESA1}	Resumen de pedidos
+{PAYMPESA2}	Nombre del articulo
+{PAYMPESA3}	Cantidad
+{PAYMPESA4}	Precio total
+{PAYMPESA5}	Numero de celular
+{PAYMPESA6}	Â¡Los campos son obligatorios!
+{PAYMPESA7}	Siguiente >
+
+// UCP, IAS esperan a que se complete el pago de MPESA
+
+{WAITMPESA0}	Esperando que se complete el pedido de MPESA...
+
+// UCP, IAS confirman el pago de Flutterwave
+
+{PAYFLUTTER0}	compra de Flutterwave
+{PAYFLUTTER1}	Resumen de pedidos
+{PAYFLUTTER2}	Nombre del elemento
+{PAYFLUTTER3}	Cantidad
+{PAYFLUTTER4}	Precio total
+{PAYFLUTTER5}	Direccion
+ de correo electronico
+{PAYFLUTTER6}	¡Los campos son obligatorios!
+{PAYFLUTTER7}	Siguiente >
+
+// UCP, IAS confirman pago Easypay
+
+{PAYEASYPAY0}	Compra de pago facil
+{PAYEASYPAY1}	Descripcion general del pedido
+{PAYEASYPAY2}	Nombre del articulo
+{PAYEASYPAY3}	Cantidad
+{PAYEASYPAY4}	Precio total
+{PAYEASYPAY5}	Siguiente >
+
+// UCP, IAS confirman pago Paytm
+
+{PAYPAYTM0}	Compra de pago
+{PAYPAYTM1}	Descripcion general del pedido
+{PAYPAYTM2}	Nombre del articulo
+{PAYPAYTM3}	Importe
+{PAYPAYTM4}	Precio total
+{PAYPAYTM5}	Siguiente >
+
+// UCP, IAS confirman pago 2CO
+
+{PAY2CO0}	2Finalizar compra
+{PAY2CO1}	Resumen de pedidos
+{PAY2CO2}	Nombre del elemento
+{PAY2CO3}	Cantidad
+{PAY2CO4}	Precio total
+{PAY2CO5}	Siguiente >
+
+// falla de pago UCP
+
+{PMFAILURE0}	Transaccion fallida
+{PMFAILURE1}	No se pudo realizar la transaccion
+{PMFAILURE2}	Referencia de pago
+{PMFAILURE3}	Respuesta de puerta de enlace
+{PMFAILURE4}	Descripcion
+
+// i‰xito de pago UCP (pasarela de pago)
+
+{PMSUCUCP0}	Transaccion exitosa
+{PMSUCUCP1}	Detalles de la transaccion
+{PMSUCUCP2}	Respuesta de puerta de enlace
+{PMSUCUCP3}	Referencia de pago
+{PMSUCUCP4}	Precio total
+{PMSUCUCP5}	¡Gracias por el pedido!
+{PMSUCUCP6}	Mostrar factura imprimible
+
+// i‰xito de pago UCP (interno)
+
+{PMSUCUCPINT0}	Transaccion exitosa
+{PMSUCUCPINT1}	Creditos agregados
+
+// i‰xito de pago IAS (pasarela de pago)
+
+{PMSUCIAS0}	Transaccion exitosa
+{PMSUCIAS1}	Detalles de la transaccion
+{PMSUCIAS2}	Respuesta de puerta de enlace
+{PMSUCIAS3}	Referencia de pago
+{PMSUCIAS4}	Importe
+{PMSUCIAS5}	DATOS DE TU NUEVA CUENTA:
+{PMSUCIAS6}	Nombre de usuario
+{PMSUCIAS7}	Contrasena
+{PMSUCIAS8}	Mostrar factura imprimible
+{PMSUCIAS9}	¡Gracias por el pedido!
+{PMSUCIAS10}	inicio de sesion de punto de acceso
+{PMSUCIAS11}	Panel de Control de Usuario
+
+// Authorize.net obtener datos CC
+
+{ANETCC0}	Pago con tarjeta de credito de Authorize.net
+{ANETCC1}	Tipo de tarjeta
+{ANETCC2}	Numero de tarjeta
+{ANETCC3}	Fecha de caducidad
+{ANETCC4}	Numero de verificacion de la tarjeta
+{ANETCC5}	Nombre
+{ANETCC6}	Apellido
+{ANETCC7}	Direccion
+{ANETCC8}	Ciudad
+{ANETCC9}	codigo postal
+{ANETCC10}	Pais
+{ANETCC11}	Estado
+{ANETCC12}	Precio total
+{ANETCC13}	Enviar
+{ANETCC14}	CCV
+
+// Activar cuenta auto registrada por SMS
+
+{ACTACCSMS0}	Activacion de cuenta
+{ACTACCSMS1}	Introduzca el codigo de activacion enviado a su telefono movil
+{ACTACCSMS2}	Codigo de activacion
+{ACTACCSMS3}	¡Los campos son obligatorios!
+{ACTACCSMS4}	Enviar
+
+// Activar cuenta auto registrada por correo electronico
+
+{ACTACCEMAIL0}	Activacion de cuenta
+{ACTACCEMAIL1}	Ingrese el codigo de activacion enviado a su direccion de correo electronico
+{ACTACCEMAIL2}	Codigo de activacion
+{ACTACCEMAIL3}	¡Los campos son obligatorios!
+{ACTACCEMAIL4}	Enviar
+
+// UCP envia codigo de verificacion de tarjeta en SMS
+
+{VERIFYCARD0}	Enviar codigo de verificacion en SMS
+{VERIFYCARD1}	Numero de telefono movil
+{VERIFYCARD2}	Al enviar este formulario, el sistema enviara un nuevo codigo de verificacion en SMS
+{VERIFYCARD3}	Introduzca su numero de telefono movil en formato internacional
+{VERIFYCARD4}	Ejemplo: 49112222222
+{VERIFYCARD5}	Enviar SMS ahora
+
+// UCP ingrese el codigo de verificacion de la tarjeta
+
+{VERCARDCODE0}	Introduce el codigo de verificacion
+{VERCARDCODE1}	Ingrese el codigo de verificacion recibido en SMS
+{VERCARDCODE2}	Codigo de verificacion
+{VERCARDCODE3}	Asegurese de ingresar el codigo de verificacion en el formato adecuado
+{VERCARDCODE4}	Enviar
+
+// ventana de informacion
+
+{INFO0}	Mensaje del sistema
+
+// Plantilla principal de recuperacion de contrasena
+
+{PASSWDMAIN0}	Fecha
+{PASSWDMAIN1}	Version
+{PASSWDMAIN2}	Radius Manager - Recuperacion de contrasena
+
+// Recuperacion de contrasena obtener datos
+
+{PASSWDREC0}	Recuperacion de contrasena
+{PASSWDREC1}	Nuevo metodo de activacion de contrasena
+{PASSWDREC2}	Correo electronico
+{PASSWDREC3}	SMS
+{PASSWDREC4}	Direccion de correo electronico
+{PASSWDREC5}	Numero de celular
+{PASSWDREC6}	Formulario internacional, por ejemplo, 496548156875
+{PASSWDREC7}	Enviar
+{PASSWDREC8}	Idioma
+{PASSWDREC9}	Nombre de usuario
+{PASSWDREC10}	¡Los campos son obligatorios!
+
+// Recuperacion de contrasena ingrese el codigo de verificacion de SMS
+
+{PASSWDGETSMS0}	Verificar nueva contrasena
+{PASSWDGETSMS1}	Codigo de activacion de contrasena
+{PASSWDGETSMS2}	¡Los campos son obligatorios!
+{PASSWDGETSMS3}	Enviar
+{PASSWDGETSMS4}	Verifique en su telefono movil el codigo de activacion recibido en SMS
+
+// Elementos del menu ACP
+
+{AMENU00}	Sistema
+{AMENU0000}	Inicio
+{AMENU0001}	Configuracion del sistema
+{AMENU0002}	Salir
+{AMENU01}	Usuarios
+{AMENU0100}	Lista de usuarios
+{AMENU0101}	Buscar usuarios
+{AMENU0102}	Nuevo usuario
+{AMENU0103}	Listar grupos de usuarios
+{AMENU0104}	Nuevo grupo de usuarios
+{AMENU0105}	Importacion masiva de usuarios
+{AMENU0106}	Deshacer ultima importacion
+{AMENU02}	Planes de servicio
+{AMENU0200}	Lista de planes de servicio
+{AMENU0201}	Nuevo plan de servicio
+{AMENU0202}	Cambios programados
+{AMENU0203}	Historial del plan de servicio
+{AMENU03}	Gerentes
+{AMENU0300}	Administradores de listas
+{AMENU0301}	Nuevo administrador
+{AMENU04}	NAS
+{AMENU0400}	Lista NAS
+{AMENU0401}	NAS nuevo
+{AMENU05}	PA
+{AMENU0500}	Listar puntos de acceso
+{AMENU0501}	Nuevo punto de acceso
+{AMENU06}	CMTS
+{AMENU0600}	Lista CMTS
+{AMENU0601}	Nuevo CMTS
+{AMENU07}	Grupos de IP
+{AMENU0700}	Listar pools
+{AMENU0701}	Nuevo grupo
+{AMENU08}	Finanzas
+{AMENU0800}	Listar facturas
+{AMENU0801}	Generar facturas pospago
+{AMENU09}	Sistema de tarjetas
+{AMENU0900}	Serie de tarjetas de lista
+{AMENU0901}	Listar tarjetas prepago clasicas
+{AMENU0902}	Lista de tarjetas de recarga
+{AMENU0903}	Encuentra tarjetas de recarga
+{AMENU0904}	Generar tarjetas
+{AMENU0905}	Estadisticas de tarjetas
+{AMENU10}	NIC
+{AMENU1000}	Lista de usuarios de IAS
+{AMENU1001}	Listar plantillas IAS
+{AMENU1002}	Nueva plantilla IAS
+{AMENU11}	Informes
+{AMENU1100}	Usuarios de RADIUS en linea
+{AMENU1101}	Cablemodems registrados
+{AMENU1102}	Informe de trafico
+{AMENU1103}	Resumen de trafico
+{AMENU1104}	Informe de trafico diario
+{AMENU1105}	Buscar datos de trafico
+{AMENU1106}	Informe de conexion
+{AMENU1107}	Registro de autenticacion
+{AMENU1108}	ultimos eventos de syslog
+{AMENU1109}	Explorar syslog
+{AMENU1110}	Informacion del sistema
+{AMENU1111}	Estadisticas del sistema
+{AMENU12}	Herramientas
+{AMENU1200}	correo electronico masivo
+{AMENU1201}	SMS masivos
+{AMENU1202}	Iniciar servidor RADIUS
+{AMENU1203}	Detener servidor RADIUS
+{AMENU1204}	Reiniciar servidor RADIUS
+{AMENU1205}	Reconstruir clientes.conf
+{AMENU1206}	Iniciar servidor DHCP
+{AMENU1207}	Detener servidor DHCP
+{AMENU1208}	Reiniciar servidor DHCP
+{AMENU1209}	Reconstruir dhcpd.conf
+
+// Elementos del menu UCP
+
+{UMENU00}	Sistema
+{UMENU0000}	Inicio
+{UMENU0001}	Salir
+{UMENU01}	Informes
+{UMENU0100}	Informe de trafico
+{UMENU0101}	Lista de facturas
+{UMENU02}	Cuenta
+{UMENU0200}	Editar cuenta
+{UMENU0201}	Cambiar contrasena
+{UMENU03}	Plan de servicio
+{UMENU0300}	Recargar cuenta
+{UMENU0301}	Deposito de compra
+{UMENU0302}	Canjear cupon
+{UMENU0303}	Cambiar plan de servicio
+
+// final
+

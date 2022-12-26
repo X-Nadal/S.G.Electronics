@@ -1,0 +1,646 @@
+//Traducido por  xnadal 
+// Archivo de definiciones de cadenas de Radius Manager
+//
+// Debe haber un car√°cter TAB entre el token y las cadenas
+//
+
+// Enlaces
+
+href_traffireport 	 	informe de trafico
+href_trafrepdly 			informe de trafico diario
+href_addcredits 			anadir creditos
+href_addmoney 			anadir deposito
+href_postpaidbilling 		facturacion pospago
+href_listinvoices 		lista de facturas
+href_chgsrv 			cambio de plan de servicio
+href_listsrvhistory 		historial del plan de servicio
+href_deluser 			eliminar
+href_listpostauth			registro de autenticacion
+href_disconnuser			desconectar
+href_listconn			informe de conexion
+href_cancel				cancelar
+href_register_acc 		Registrar una cuenta
+href_verify_acc			Verificar cuenta
+href_edit 				Editar
+href_selfdisconn			Haga clic aqui para desconectarse y volver al modo completo
+href_sendmail 			correo electronico
+href_sendsms 			SMS
+
+// cadenas
+
+str_cardser				Serie de cartas
+str_unpaidinv 			Factura no pagada encontrada
+str_unpaidgraceinv 		Periodo de gracia vencido
+str_availcolumns 			Columnas disponibles
+str_selectall 			seleccionar todo
+str_selectnone 			deseleccionar todo
+str_pooltype_docsis 		DOCSIS
+str_pooltype_radius		RADIO
+str_none				Ninguno
+str_view 				Ver e imprimir factura
+str_ref				Ref. .
+str_unreg_user			No registrado
+str_auto_renew			Renovacion automatica
+str_regdisabled			El registro automatico esta deshabilitado
+str_emailsubjexpiry		Alerta de caducidad de cuenta
+str_emailsubjrenewed		Su cuenta ha sido renovada
+str_emailsubjcantrenew		Problema al renovar su cuenta
+str_emailsubjsrvchg		Nuevo plan de servicio activado
+str_emailsubjwelcome		Bienvenido nuevo usuario
+str_emailsubjselfreg		Nueva cuenta auto registrada
+str_emailsubjiasreg		Nueva cuenta IAS
+str_emailsubjactpsw		Activa tu nueva contrasena
+str_emailsubjnewpsw		Nueva contrasena activada
+str_emailsubjactacc		Activa tu nueva cuenta
+str_emailsubjdepositadd		Saldo aumentado
+str_yymmdd				AAAA-MM-DD
+str_yymmddhhmmss			AAAA-MM-DD HH:MM:SS
+str_resetctr			°ADVERTENCIA!<br><br>°Los creditos actuales se perderan al cambiar el plan de servicio!
+str_finished			terminado
+str_completed			completado
+str_cancelled			cancelado
+str_paymode_cash			C
+str_paymode_transfer			T
+str_paymode_internal			I
+str_paymode_card				P
+str_paymode_online			O
+str_moneyadd				Anadir dinero
+str_addmode					Modo de credito adicional activo
+str_monthly_srv				Plan de servicio mensual
+str_fillupman_srv				Deposito
+str_fillupcard_srv			Recarga de tarjeta
+str_system					sistema
+str_na					n/a
+str_notavail				No disponible
+str_dynamic					dinamico
+str_hide					-
+str_datarate				kbps
+str_unlimited				ilimitado
+str_next_page				>>
+str_prev_page				<<
+str_first_page				primero
+str_last_page				ultima
+str_no_limit				sin limite
+str_never_expires				nunca
+str_default_fullname			Nombre de usuario desconocido
+str_acc_disabled				deshabilitado
+str_acc_expired				caducado
+str_acc_notverified			No verificado
+str_acc_active				activo
+str_acc_limit				<-limite
+str_yes					si
+str_no					no
+str_any					cualquiera
+str_all					todo
+str_all_postpaid				Todos los planes de servicio pospago
+str_never_seen				nunca
+str_online					en linea
+str_offline					sin conexion
+str_unregged				prepago clasico
+str_regged					recarga
+str_acctype_regular			regular
+str_acctype_maconly			cuenta MAC
+str_acctype_carduser			tarjeta prepago
+str_acctype_aclmikrotik			Mikrotik lista de acceso
+str_acctype_aclstaros			Lista de acceso de StarOS
+str_acctype_ias				Servicio de acceso instantaneo
+str_acctype_docsis			DOCSIS
+str_expiremode_nminutes			minuto(s) desde la activacion de la tarjeta
+str_expiremode_nhours			hora(s) desde la activacion de la tarjeta
+str_expiremode_ndays			dia(s) desde la activacion de la tarjeta
+str_expiremode_nmonths			mes(es) desde la activacion de la tarjeta
+str_hours					horas
+str_unknown_nas				NAS desconocido
+str_selfreg					Autorregistracion.
+str_exchg_rate				tipo de cambio:
+str_emailpreview				Enviar correo electronico de vista previa al administrador
+str_emailreal				Enviando correo electronico a
+str_smsreal					Envio de SMS a
+str_home					Volver a casa
+str_done					Listo
+str_totals					TOTALES:
+str_id					identificacion de
+str_pin					PIN
+str_password				contrasena
+str_trfsumcsv1				Nombre de usuario
+str_trfsumcsv2				Nombre
+str_trfsumcsv3				Apellido
+str_trfsumcsv4				Tiempo en linea
+str_trfsumcsv5				Descargar
+str_trfsumcsv6				Subir
+str_trfsumcsv7				Total
+str_lstusrcsv1				Nombre de usuario
+str_lstusrcsv2				Servicio
+str_lstusrcsv3				Caducidad de
+str_lstusrcsv4				Limite de descarga
+str_lstusrcsv5				Limite de carga
+str_lstusrcsv6				Limite total
+str_lstusrcsv7				Limite de tiempo de actividad
+str_lstusrcsv8				IP de CPE
+str_lstusrcsv9				IP de CM
+str_lstusrcsv10				CM MAC
+str_lstusrcsv11				Nombre
+str_lstusrcsv12				Apellido
+str_lstusrcsv13				Empresa
+str_lstusrcsv14				Direccion
+str_lstusrcsv15				Ciudad
+str_lstusrcsv16				c√≥digo postal
+str_lstusrcsv17				Pais
+str_lstusrcsv18				Estado
+str_lstusrcsv19				Telefono
+str_lstusrcsv20				Numero de celular
+str_lstusrcsv21				Correo electronico
+str_lstusrcsv22				Registrado
+str_lstusrcsv23				ultimo cierre de sesion
+str_lstusrcsv24				Comentario
+str_lstusrfastcsv				Nombre de usuario
+str_lstusrfastcsv2			Nombre
+str_lstusrfastcsv3			Apellido
+str_lstusrfastcsv4			Direccion
+str_lstusrfastcsv5			Ciudad
+str_lstusrfastcsv6			Zip
+str_lstusrfastcsv7			Pais
+str_lstusrfastcsv8			Estado
+str_lstusrfastcsv9			Telefono
+str_lstusrfastcsv10			Numero de celular
+str_lstusrfastcsv11			Correo electronico
+str_lstusrfastcsv12			Comentario
+str_lstinvcsv1				Fecha
+str_lstinvcsv2				Numero de factura
+str_lstinvcsv3				Tipo de factura
+str_lstinvcsv4			Descripcion
+str_lstinvcsv5			Creado por
+str_lstinvcsv6			Cliente
+str_lstinvcsv7			Precio
+str_lstinvcsv8			Saldo
+str_lstinvcsv9			Bytes de descarga agregados
+str_lstinvcsv10			Bytes de descarga disponibles
+str_lstinvcsv11			Bytes de carga agregados
+str_lstinvcsv12			Bytes de carga disponibles
+str_lstinvcsv13			Bytes totales agregados
+str_lstinvcsv14			Bytes totales disponibles
+str_lstinvcsv15			Hora anadida
+str_lstinvcsv16			Tiempo disponible en linea
+str_lstinvcsv17			dias anadidos
+str_lstinvcsv18			Caducidad
+str_lstinvcsv19			Comentario
+str_lstinvcsv20			Pagado
+str_lstrflcard1			PIN
+str_lstrflcard2			Serie
+str_lstrflcard3			Activado por
+str_lstrflcard4			Activado el
+str_lstrflcard5			Caducidad de
+str_lstrflcard6			Valor bruto de la tarjeta
+str_lstrflcard7			Generado el
+str_exportcsv			exportacion CSV
+str_found				Encontrado:
+str_gen_invoices			Generacion de facturas para usuarios de pospago
+str_combined_srv			Plan de servicio de Internet combinado
+str_printallinv			Imprimir facturas
+str_intsservice			Servicio de Internet
+str_ejecutando			OK
+str_not_running			<font color="#FF0000">¬°NO FUNCIONA!</font>
+str_availbalance			Saldo disponible
+str_paypal_redir_ucp		HAGA CLIC AQUi PARA COMPLETAR LA TRANSACCIoN
+str_paypal_redir_ias		HAGA CLIC AQUi PARA OBTENER EL CoIDIGO IAS
+str_enabled				Habilitado
+str_ok				esta bien
+str_err				ERROR
+str_skipinvzero			omitido - precio cero
+str_skipinvdisacc			omitido - cuenta deshabilitada
+str_graphtrfday			Tr‡fico (dia)
+str_graphtrfweek			Tr‡fico (semana)
+str_graphtrfmonth			Tr‡fico (mes)
+str_graphtrfyear			Tr‡fico (ano)
+str_graphsnrday			SNR (dia)
+str_graphsnrweek			SNR (semana)
+str_graphsnrmonth			SNR (mes)
+str_graphsnryear			SNR (ano)
+str_graphsnrccqday		SNR/CCQ (dia)
+str_graphsnrccqweek		SNR/CCQ (semana)
+str_graphsnrccqmonth		SNR/CCQ (mes)
+str_graphsnrccqyear		SNR/CCQ (ano)
+str_graphsigday			Nivel de potencia (dia)
+str_graphsigweek			Nivel de potencia (semana)
+str_graphsigmonth			Nivel de potencia (mes)
+str_graphsigyear			Nivel de potencia (ano)
+str_graphlatday			RTT (dia)
+str_graphlatweek			RTT (semana)
+str_graphlatmonth			RTT (mes)
+str_graphlatyear			RTT (ano)
+str_graphdl				DL
+str_graphul				UL
+str_graphds				DS
+str_graphus				EE. UU.
+str_graphlat			Latencia
+str_snrus				EE.UU. SNR
+str_ccqus				EE.UU. CCQ
+str_importcomplete		Cuentas importadas:
+str_deposit				Deposito
+
+// error de mensajes
+
+err_wrong_url		La pagina a la que intenta acceder esta restringida o no disponible
+err_invalid_actcode	Codigo de activacion no valido
+err_wrongusermail		Nombre de usuario o direccon de correo electronico incorrectos
+err_wrongusermobile	Nombre de usuario o numero de celular incorrecto
+err_no_groupname 		No se ha definido ningun nombre de grupo!
+err_nothing_to_print	Nada que imprimir!
+err_pdt PDT			recibio una solicitud HTTP GET sin una ID de transaccion
+err_paypal_unknown	Error desconocido de PayPal!
+err_unknown			Error desconocido!
+err_raddb				/usr/local/etc/raddb no es accesible!
+err_clientsconf			/usr/local/etc/raddb/clients.conf no es accesible!
+err_overlapping_interval	°Los intervalos se superponen!
+err_smsapi				Error de la API de SMS:
+err_nopaymentmethod		°No se ha seleccionado ningun metodo de pago!
+err_acceptterms			Debe aceptar los Terminos y condiciones antes de activar la nueva cuenta
+err_no_remotehost			°No se ha definido ningun nombre de host remoto ni IP!
+err_nodata				No se encontraron datos!
+err_daily_dlquota_reached	Cuota de descarga diaria alcanzada!
+err_daily_ulquota_reached	Cuota diaria de carga alcanzada.
+err_daily_totalquota_reached	Cuota de trafico total diaria alcanzada!
+err_daily_timequota_reached	Cuota de tiempo diaria alcanzada!
+err_incorrect_account_type	Tipo de cuenta incorrecto!
+err_no_download_left		Limite de descarga alcanzado!
+err_no_upload_left		Limite de carga alcanzado!
+err_no_total_left			Limite de trafico total alcanzado!
+err_no_time_left			°No queda mas tiempo en linea!
+err_account_expired		°La cuenta ha caducado!
+err_invalid_service		°Referencia de servicio no valida!
+err_invalid_mac			Direccion MAC no valida!
+err_nas_not_allowed		No tiene permiso para conectarse a este NAS!
+err_conn_not_allowed		La conexion no esta°
+ permitida ahora!
+err_account_disabled		La cuenta esta° deshabilitada!
+err_account_not_verified	No se puede iniciar sesion, la cuenta no esta° verificada!
+err_firstname_invalid		El nombre no es valido!
+err_lastname_invalid		El apellido no es valido!
+err_address_invalid		La direccion no es valido!
+err_city_invalid			La ciudad no es valido!
+err_zip_invalid			El ZIP no es valido!
+err_country_invalid		Ningun pais seleccionado!
+err_state_invalid			Ningun estado seleccionado!
+err_phone_invalid			Numero de telofono no valido!
+err_mobile_invalid		Numero de celular invalido!
+err_mobile_alreadyused		Numero de celular ya usado!
+err_no_phone			Ningun numero de telofono ingresado!
+err_no_mobile			Ningun numero de celular ingresado!
+err_email_invalid			Direccion de correo electronico no valida!
+err_email_alreadyused		La direccion de correo electronico ya se uso!
+err_email_not_sent		Correo electronico no enviado!
+err_vatid_invalid			ID de IVA no valido!
+err_sms_not_sent			SMS no enviado!
+err_currency_not_supported	Divisa del sistema no admitida!
+err_currency_not_usd		La moneda predeterminada del sistema debe ser USD para aceptar pagos directos!
+err_invalid_interval	°Intervalo no valido!
+err_invalid_pool		Grupo de direcciones IP no valido.
+err_pool_overlaps		°El grupo dado se superpone a un grupo existente!
+err_pool_assigned		°Error al eliminar un grupo asignado!
+err_no_poolname		°No se ingreso ningun nombre de grupo!
+err_no_cmtsname		°No se ha introducido ningun nombre CMTS!
+err_no_community		°No se ingreso ninguna comunidad SNMP!
+err_no_apiuser		°No se ingreso el nombre de usuario de la API de Mikrotik!
+err_no_apipassword		°No se ingreso la contrasena API de Mikrotik!
+err_no_free_ip_cm		°No hay ninguna direccion IP de CM disponible!
+err_no_free_ip_cpe		°No hay ninguna direccion IP de CPE disponible!
+err_invalid_paymentopt		°Opcion de pago no valida!
+err_enter_cardnum_prepaid		°Solo los usuarios de prepago pueden ingresar codigos de tarjeta!
+err_descr_empty		°La descripcion del plan de servicio no puede estar vacia!
+err_price_negative		°El precio no puede ser un numero negativo!
+err_srv_change_no_srv	°Nada que cancelar!
+err_srv_change_postpaid_active	°Hoy ya se asigno un plan de servicio pospago!
+err_changesrv_only_prepaid	°Solo los usuarios de prepago pueden cambiar el plan de servicio!
+err_changesrv_prepaid_only	°Solo los usuarios de prepago pueden seleccionar un plan de servicio!
+err_op_not_allowed		°Operacion no permitida!
+err_chgpswucp_disabled		°No se permite el cambio de contrasena!
+err_buy_services_month_active	°El plan de servicio mensual ya esta° activo!
+err_buy_services_no_credit	No tiene suficientes fondos en deposito. La cantidad maxima es
+err_buy_services_min_amount	La cantidad minima es
+err_buy_services_amount		°Cantidad incorrecta!
+err_buy_services_prepaid	°Solo los usuarios de prepago pueden acceder a esta opcion!
+err_add_credits_balance		°Saldo insuficiente!
+err_login				°Nombre de usuario o contrasena incorrectos!
+err_no_currency			°Codigo de moneda no configurado!
+err_traffic_add_unitprice 	Precio unitario incorrecto!
+err_traffic_add_amount		Cantidad incorrecta!
+err_traffic_add_monthly		°Solo se puede agregar un mes para los planes de servicio combinados!
+err_traffic_add_additional		°No se pueden agregar MegaBytes adicionales para planes de servicio combinado vencidos!
+err_money_add_amount	°Cantidad incorrecta!
+err_invoice_exists	°La factura ya existe!
+err_payout_already_submitted	°Pago ya enviado!
+err_form_already_submitted	°Formulario ya enviado!
+err_srvchange_already_submitted	°Cambio de plan de servicio ya enviado!
+err_invoice_already_submitted		°Factura ya enviada!
+err_simuse_invalid	°El campo de uso simultaneo no es valido!
+err_card_already_gen	°Las tarjetas ya estan generadas!
+err_card_downlimit	°El limite de descarga debe ser cero o un numero mayor!
+err_card_uplimit	°El limite de carga debe ser cero o un numero mayor!
+err_card_uptimelimit	°El limite de tiempo en linea debe ser cero o un numero mayor!
+err_card_expired	°Tarjeta prepago caducada!
+err_card_revoked	°La tarjeta prepago ha sido revocada!
+err_card_not_found	°Tarjeta prepaga no encontrada!
+err_card_no_srv	°El plan de servicio no esta asignado!
+err_account_locked	°Tu cuenta ha sido bloqueada!
+err_credits_invalid	°Los creditos no pueden ser negativos!
+err_generating_ias	°Error al generar la cuenta IAS!
+err_adding_credits	°Error al agregar creditos!
+err_dup_form	°Transaccion duplicada!
+err_card_invalid	°Numero de tarjeta no valido!
+err_cannot_create_file	°No se puede crear el archivo!
+err_cannot_write_file	°No se puede escribir el archivo!
+err_cannot_delete_file	°No se puede eliminar el archivo!
+err_card_expiration	°La fecha de caducidad de la tarjeta no es valida!
+err_card_value	°Valor de tarjeta no valido!
+err_card_quantity	°Cantidad no valida!
+err_card_secret	°Longitud secreta no valida!
+err_unit_price	°El precio unitario debe ser mayor que cero!
+err_unit_time	°La unidad de tiempo siempre es mayor que cero!
+err_unit_trafficdl	°La unidad de trafico de descarga siempre es mayor que cero!
+err_unit_trafficul	°La unidad de trafico de carga siempre es mayor que cero!
+err_unit_trafficcomb	°La unidad de trafico combinado siempre es mayor que cero!
+err_addamount		°La cantidad adicional siempre es mayor que cero!
+err_minamount		°La cantidad minima no puede ser cero o un numero negativo!
+err_rest_manager		°Solo se pueden listar las facturas del administrador actual!
+err_max_usernum		°Se alcanzo el numero maximo de usuarios!<br><br>Actualice su licencia.
+err_max_cmtsnum		°Se alcanzo el numero maximo de CMTS!
+err_max_nasnum		°Se alcanzo el numero maximo de NAS!
+err_zero_payout		°Ingrese una cantidad distinta de cero!
+err_no_perm			°No tiene suficientes privilegios para acceder a esta funcion!
+err_mod_undisponible		°Modulo no disponible!
+err_no_cts			°El sistema de seguimiento de conexiones no esta disponible en esta version!
+err_no_simuse_attr		°Ningun atributo de uso simultaneo en radcheck para el usuario dado!
+err_user_exists			°La cuenta ya existe!
+err_user_no_username		°Nombre de usuario no enviado!
+err_user_mac_problem		°Error de formato de direccion MAC!
+err_user_not_found		°Usuario no encontrado!
+err_manager_not_found		°Administrador no encontrado!
+err_inv_not_found			°Factura no encontrada!
+err_user_name_length		°La longitud del nombre de usuario no es valida!
+err_mac_cm				°Direccion MAC de CM no valida!
+err_mac_cpe				°Direccion MAC del CPE no valida!
+err_maccm_already_assigned	Direccion MAC de CM ya asignada al usuario
+err_maccpe_already_assigned	CPE Direccion MAC ya asignada al usuario
+err_exp_date			°La fecha de caducidad no es valida!
+err_payment_date			°La fecha de pago no es valida!
+err_username_not_valid		°Caracter no valido en el nombre de usuario!
+err_managername_not_valid	°Nombre de administrador no valido!
+err_no_nasname		°El nombre del NAS no esta° definido!
+err_no_apname		°El nombre del AP no esta° definido!
+err_invalid_ip		°La direccion IP no es valida!
+err_no_nassecret		°El secreto de NAS no esta° definido!
+err_no_naspassword	°La contrasena del NAS no esta° definida!
+err_nas_not_found		°NAS no encontrado!
+err_ap_not_found		°AP no encontrado!
+err_nas_exists		°La direccion IP ya esta° asignada a otro NAS!
+err_ap_exists		°La d°direccion IP ya esta° asignada a otro AP!
+err_pool_not_found	°No se encontro el conjunto de direcciones IP!
+err_cmts_not_foun		°CMTS no encontrado!
+err_psw_nomatch		°La contrasena no coincide!
+err_psw_null		°Contrasena vacia enviada!
+err_psw_length		°La longitud de la contrasena no es valida!
+err_psw_oldpsw		°La contrasena actual no coincide!
+err_psw_invalid		°Caracter no valido en la contrasena!
+err_cant_del_admin		°No se puede eliminar el superusuario!
+err_only_superuser		°Se necesitan privilegios de superusuario!
+err_cant_add_zero_mb		°No se puede agregar una cantidad cero de tr√°fico!
+err_cant_add_zero_money		°No se puede agregar una cantidad cero de dinero!
+err_srv_no_srvname		°No se envio el nombre del plan de servicio!
+err_srv_not_found			°No se encontro el plan de servicio!
+err_srv_exists			°El plan de servicio ya existe!
+err_srv_not_sel			°No se ha seleccionado ningun plan de servicio!
+err_ip_format			°Error de formato de direccion IP!
+err_cm_ip_already_assigned	Direccion IP de CM ya asignada al usuario
+err_cpe_ip_already_assigned	Direccion IP de CPE ya asignada al usuario
+err_burst_dl		°La tasa de descarga en rafaga no puede ser menor que la tasa de descarga nominal!
+err_burst_ul		°La tasa de carga en rafaga no puede ser menor que la tasa de carga nominal!
+err_priority		°La prioridad es valida entre 1 y 8!
+err_ulbursttime		°El tiempo de rafaga de carga siempre es mayor que cero!
+err_dlbursttime		°El tiempo de rafaga de descarga siempre es mayor que cero!
+err_cant_find_nas		°No se puede encontrar el NAS solicitado en la base de datos!
+err_ias_no_srvname	°No se ingreso el nombre del servicio de acceso instant√°neo!
+err_ias_price		°El precio debe ser mayor que cero!
+err_ias_no_srv		°No se ha seleccionado ningun plan de servicio!
+err_ias_downlimit		°El limite de descarga debe ser cero o un numero mayor!
+err_ias_uplimit	°El limite de carga debe ser cero o un numero mayor!
+err_ias_totallimit	°El limite total debe ser cero o un numero mayor!
+err_ias_uptimelimit	°El limite de tiempo de actividad debe ser cero o un numero mayor!
+err_ias_expiretime		°El tiempo disponible debe ser cero o un numero mayor!
+err_ias_exists			°El servicio de acceso instantaneo ya existe!
+err_ias_not_found			°Servicio de acceso instantaneo no encontrado!
+err_iaspayment_cancelled	Compra de servicio cancelada
+err_ias_validity			°Error de formato de fecha de validez!
+err_del_def_srv			°No
+ se puede eliminar el plan de servicio predeterminado!
+err_del_def_usergroup		°El grupo de usuarios predeterminado no se puede eliminar!
+err_del_card_user			°Los usuarios de la tarjeta no se pueden eliminar!
+err_cc_unsupported_country	°Pais de comerciante no admitido!
+err_no_services_available		No hay planes de servicio disponibles
+err_cc_unsupported_currency		°Divisa del sistema no admitida!
+err_db			°Error de base de datos!
+err_acc_already_verified	°Cuenta ya verificada!
+err_acc_not_selfreg	°Esta cuenta no es un usuario registrado!
+err_invalid_verification	°Codigo de verificacion no valido!
+err_nomoretries		°No quedan mas intentos!
+err_mobilebanned		°Numero de celular prohibido!
+err_emailbanned		°Direccion de correo electrÚnico prohibida!
+err_not_own_user		°Solo se puede acceder a los usuarios propios!
+err_radius_running	°El servidor RADIUS ya se esta° ejecutando!
+err_radius_notrunning	°El servidor RADIUS no se esta° ejecutando!
+err_dhcp_running		°El servidor DHCP ya se esta° ejecutando!
+err_dhcp_notrunning	°El servidor DHCP no se esta° ejecutando!
+err_dhcp_file		°Error al acceder al archivo de configuracion de DHCP!
+err_sms_maxnum		°Se ha alcanzado el numero maximo de codigos SMS enviados!
+err_valid_value		°Valor no valido!
+err_wrong_acc_type	°Tipo de cuenta incorrecto!
+err_noreg_user		°Este usuario esta° registrado despues del comienzo del periodo de facturacion!
+err_invalid_cartid	ID de carrito no valido!
+err_invalid_warnlevel	°Nivel de advertencia no valido!
+err_tftp			°Error al generar el archivo de arranque tftp!
+err_capcode			°Codigo de seguridad no valido!
+err_acc_exists		omitiendo, la cuenta ya existe
+err_nofile			°No se envio ning√un archivo!
+err_cantundo 		°El bufer de deshacer esta° vacio!
+err_invalidapiuser	Nombre de usuario/contrasena de API no valido o faltante.
+err_apidisabled		 °La API esta° deshabilitada!
+err_dateunit	°Unidad de fecha no valida!
+err_pago 		Error del sistema
+err_amount 		°Cantidad no valida!
+
+// mensajes del sistema
+
+msg_msg_sent 		Mensaje enviado a
+msg_sync_ok			Reconstruccion exitosa
+msg_srv_change_same	El mismo plan de servicio ya esta° programado o activo
+msg_srv_change_already_scheduled	Cambio de plan de servicio ya programado para
+msg_srv_change_scheduled		Cambio de plan de servicio programado
+msg_srv_change_cancelled		Cambio de plan de servicio cancelado
+msg_srv_change_completed		Plan de servicio cambiado
+msg_series_revoked		Serie de tarjeta prepago revocada
+msg_series_reactivated		Serie de tarjetas prepago reactivadas
+msg_series_deleted		Serie de tarjeta prepago eliminada
+msg_card_revoked		Tarjeta(s) prepaga(s) revocada(s)
+msg_card_enabled		Tarjeta(s) de prepago habilitadas
+msg_card_deleted		Tarjeta(s) de prepago eliminadas
+msg_card_entered		Deposito agregado
+msg_credits_added		Creditos agregados
+msg_cards_generated		Tarjetas generadas correctamente
+msg_psw_updated		Contrasena actualizada
+msg_usergroup_created		Grupo de usuarios registrado
+msg_usergroup_updated		Grupo de usuarios actualizado
+msg_usergroup_deleted		Grupos de usuarios eliminados
+msg_invoice_updated		Factura actualizada
+msg_settings_updated		Configuracion del sistema actualizada
+msg_psw_changed		Contrasena cambiada
+msg_user_logged_out		Estas desconectado
+msg_user_deleted		Usuario(s) eliminado(s)
+msg_user_enabled		Usuario(s) habilitado(s)
+msg_user_disabled		Usuario(s) deshabilitado(s)
+msg_user_created 		Cuenta registrada
+msg_user_updated		Cuenta actualizada
+msg_manager_enabled	Administrador(es) habilitado(s)
+msg_manager_disabled 	Administrador(es) deshabilitado(s)
+msg_manager_created	Administrador registrado
+msg_manager_updated	Administrador actualizado
+msg_manager_deleted	Administrador(es) eliminado(s)
+msg_service_enabled	Planes de servicio habilitados
+msg_service_disabled	Plan(es) de servicio deshabilitado(s)
+msg_service_created	Plan de servicio registrado
+msg_service_updated	Plan de servicio actualizado
+msg_service_deleted	Plan(es) de servicio eliminado(s)
+msg_credits_added		Creditos agregados
+msg_nas_created		Nuevo NAS registrado
+msg_nas_updated		NAS actualizado
+msg_nas_deleted		NAS eliminado
+msg_ap_created		Nuevo AP registrado
+msg_ap_updated		AP actualizado
+msg_ap_deleted		AP eliminado
+msg_pool_created		Nuevo grupo de IP registrado
+msg_pool_updated		Conjunto de IP actualizado
+msg_pool_deleted		Conjunto de direcciones IP eliminado
+msg_cmts_created		Nuevo CMTS registrado
+msg_cmts_updated		CMTS actualizado
+msg_cmts_deleted		CMTS eliminado
+msg_ias_created		Servicio de acceso instantaneo registrado
+msg_ias_updated		Servicio de acceso instantaneo actualizado
+msg_ias_deleted		Servicios de acceso instantaneo eliminados
+msg_ias_enabled		Servicios de acceso instantaneo habilitados
+msg_ias_disabled		Servicios de acceso instantaneo deshabilitados
+msg_account_verified	Su cuenta esta verificada
+msg_trial_expires		La licencia caduca el
+msg_acc_credited		Cuenta de revendedor acreditada
+msg_code_sent		Enviado al numero de celular
+msg_disconnected		Solicitud de desconexion enviada
+msg_verifysentemail	El codigo de verificacion ha sido enviado a su direccion de correo electronico
+msg_verifysentsms		El codigo de verificacion ha sido enviado a su telofono celular
+msg_newpswsentemail	La nueva contrasena ha sido enviada por correo electronico a su direccion
+msg_newpswactive		La nueva contrasena ha sido enviada a su celular
+msg_undocomplete		Se han eliminado las ultimas cuentas importadas masivamente
+
+// elementos de la matriz
+
+arr_srvtype0		prepago
+arr_srvtype1		pospago
+arr_taxtype0		incluido
+arr_taxtype1		excluido
+arr_paymode0		Pago en efectivo
+arr_paymode1		Transferencia bancaria
+arr_paymode2		Interno
+arr_paymode3		Tarjeta prepago
+arr_paymode4		Estandar de pagos del sitio web de PayPal
+arr_paymode5		Pagos en el sitio web de PayPal Pro
+arr_paymode6		Pago expres de PayPal
+arr_paymode7		Netcash
+arr_paymode8		Authorize.Net
+arr_paymode9		DPS Pago Express
+arr_paymode10		2Pagar
+arr_paymode11		Pago Rapido
+arr_paymode12		PayU
+arr_paymode13		Paytm
+arr_paymode14		bKash
+arr_paymode15		Personalizado
+arr_paymode16		Flutterwave
+arr_paymode17		Pago facil
+arr_paymode18		MPESA
+arr_acctype0		Usuario habitual
+arr_acctype1		Autenticacion solo para MAC
+arr_timeunit0		minuto(s)
+arr_timeunit1		hora(s)
+arr_timeunit2		dia(s)
+arr_timeunit3		mes(es)
+arr_month0			enero
+arr_month1			febrero
+arr_month2			marzo
+arr_month3			abril
+arr_month4			mayo
+arr_month5			junio
+arr_month6			julio
+arr_month7			agosto
+arr_month8			septiembre
+arr_month9			octubre
+arr_month10			noviembre
+arr_month11			diciembre
+arr_cardexpiration0		horas
+arr_cardexpiration1		dias
+arr_cardexpiration2		meses
+arr_syslog0			Cuenta registrada
+arr_syslog1			Cuenta actualizada
+arr_syslog2 		Cuenta eliminada
+arr_syslog3			Administrador conectado
+arr_syslog4			Administrador cerrado sesion (solicitud de usuario)
+arr_syslog			Configuracion del sistema actualizada
+arr_syslog6			Administrador registrado
+Administrador arr_syslog7 actualizado
+arr_syslog8			Administrador eliminado
+arr_syslog9			Plan de servicio registrado
+arr_syslog10		Plan de servicio actualizado
+arr_syslog11		Plan de servicio eliminado
+arr_syslog12		NAS registrado
+arr_syslog13		NAS actualizado
+arr_syslog14		NAS eliminado
+arr_syslog15		Operacion de correo electronico masivo iniciada
+arr_syslog16		Factura actualizada
+arr_syslog17		Periodos contables especiales actualizados
+arr_syslog18		Periodos especiales de ancho de banda actualizados
+arr_syslog19		Grupo de usuarios actualizado
+arr_syslog20		Grupo de usuarios registrado
+arr_syslog21		Facturacion por lotes iniciada
+arr_syslog22		Tarjeta revocada
+arr_syslog23		Serie de tarjetas generada
+arr_syslog24		Plantilla IAS registrada
+arr_syslog25		Plantilla IAS actualizada
+arr_syslog26		Plantilla IAS eliminada
+arr_syslog27		grupo IP registrado
+arr_syslog28		Grupo de IP actualizado
+arr_syslog29		Grupo de direcciones IP eliminado
+arr_syslog30		CMTS registrado
+arr_syslog31		CMTS actualizado
+arr_syslog32		CMTS eliminado
+arr_syslog33		AP registrado
+arr_syslog34		AP actualizado
+arr_syslog35		AP eliminado
+arr_syslog36		Se inicio la operacion de SMS masivos
+arr_syslog37		Error de inicio de sesion
+arr_syslog38		Administrador cerrado (tiempo de espera de la sesion)
+arr_syslog39		Autorregistro
+arr_syslog40		registro NIC
+arr_syslog41		Cuenta habilitada
+arr_syslog42		Cuenta deshabilitada
+arr_syslog43		Importacion masiva de usuarios completada
+arr_syslog44		Usuario de la API conectado
+arr_syslog45		Inicio de sesion de API no valido
+arr_syslog46			Solicitud POD enviada
+arr_syslog47			Creditos anadidos
+arr_syslog48			SMS enviado
+arr_syslog49			Correo electronico enviado
+Funcin API arr_syslog50 llamada
+arr_nastype0			Microtik
+arr_nastype1			Star OS
+arr_nastype2			Chilli Spot
+arr_nastype3			Cisco
+arr_nastype4			pfSense
+arr_nastype5			personalizado
+arr_apaccessmode0			SNMP (Mikrotik, UBNT <5)
+arr_apaccessmode1			API de Mikrotik
+arr_apaccessmode2			SNMP (UBNT 5+)
+
